@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.9" pages="3">
   <diagram name="第 1 页" id="ZvRVtKMHqjIb7jlLaT23">
     <mxGraphModel dx="6388" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,58 +182,58 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cc5ZF6h4ICKkNvJx_7M4" name="merge开始与失败的流程">
-    <mxGraphModel dx="5580" dy="2603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3493" dy="1348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mw96nbkPMHBybhn6pct--1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakManager&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakManager&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="60" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--3" target="Mw96nbkPMHBybhn6pct--8">
+        <mxCell id="Mw96nbkPMHBybhn6pct--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--3" target="Mw96nbkPMHBybhn6pct--8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MergePakFile&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MergePakFile&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="290" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--5" target="Mw96nbkPMHBybhn6pct--3">
+        <mxCell id="Mw96nbkPMHBybhn6pct--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--5" target="Mw96nbkPMHBybhn6pct--3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;PreparePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;PreparePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="290" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--6" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--6" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--8" target="Mw96nbkPMHBybhn6pct--12">
+        <mxCell id="Mw96nbkPMHBybhn6pct--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--8" target="Mw96nbkPMHBybhn6pct--12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;StartMerge&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;StartMerge&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakMergeTask&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MoePakMergeTask&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="60" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--12" target="Mw96nbkPMHBybhn6pct--14">
+        <mxCell id="Mw96nbkPMHBybhn6pct--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--12" target="Mw96nbkPMHBybhn6pct--14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--12" target="Mw96nbkPMHBybhn6pct--52">
+        <mxCell id="Mw96nbkPMHBybhn6pct--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mw96nbkPMHBybhn6pct--12" target="Mw96nbkPMHBybhn6pct--52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1635" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--12" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;StartMerge&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--12" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;StartMerge&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1430" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--14" target="Mw96nbkPMHBybhn6pct--19">
+        <mxCell id="Mw96nbkPMHBybhn6pct--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--14" target="Mw96nbkPMHBybhn6pct--19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--14" value="ChangeMergeTaskState&lt;div&gt;(MoePakConst.E_PakMergeState.Merge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--14" value="ChangeMergeTaskState&lt;div&gt;(MoePakConst.E_PakMergeState.Merge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1582.5" y="440" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--21">
+        <mxCell id="Mw96nbkPMHBybhn6pct--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--24">
+        <mxCell id="Mw96nbkPMHBybhn6pct--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1900" y="600" />
@@ -241,10 +241,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--25">
+        <mxCell id="Mw96nbkPMHBybhn6pct--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--28">
+        <mxCell id="Mw96nbkPMHBybhn6pct--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1900" y="600" />
@@ -252,43 +252,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--19" value="OnUpdateMergeTaskStateLogic&lt;div&gt;策略模式&lt;/div&gt;&lt;div&gt;根据不同的状态进行不同的操作&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--19" value="OnUpdateMergeTaskStateLogic&lt;div&gt;策略模式&lt;/div&gt;&lt;div&gt;根据不同的状态进行不同的操作&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1602.5" y="570" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--21" target="Mw96nbkPMHBybhn6pct--34">
+        <mxCell id="Mw96nbkPMHBybhn6pct--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--21" target="Mw96nbkPMHBybhn6pct--34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--21" value="ChangeMergeFailed&lt;div&gt;(MoePakConst.EPakMergeErrorCode.NotExist)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--21" value="ChangeMergeFailed&lt;div&gt;(MoePakConst.EPakMergeErrorCode.NotExist)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="450" width="292" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--22" value="检查diffFilepath、filePath&lt;div&gt;以及这两个目录是否有存在&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--22" value="检查diffFilepath、filePath&lt;div&gt;以及这两个目录是否有存在&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1830" y="430" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--23" value="不存在直接返回失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--23" value="不存在直接返回失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2025" y="418" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--24" value="UE4.UMoeHDiffPatchHelper.MergeDiff_CheckMD5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--24" value="UE4.UMoeHDiffPatchHelper.MergeDiff_CheckMD5" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2030" y="630" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--25" value="创建文件合并后写入的目录&lt;div&gt;mergeFilePath =&amp;nbsp;&lt;/div&gt;&lt;div&gt;string.format(&quot;%s.%s&quot;, filePath, MoePakConst.MergeResultFileSuffix)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--25" value="创建文件合并后写入的目录&lt;div&gt;mergeFilePath =&amp;nbsp;&lt;/div&gt;&lt;div&gt;string.format(&quot;%s.%s&quot;, filePath, MoePakConst.MergeResultFileSuffix)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2020" y="535" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--26" value="调用UE接口&lt;div&gt;创建合并任务的ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--26" value="调用UE接口&lt;div&gt;创建合并任务的ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2320" y="640" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--28" target="Mw96nbkPMHBybhn6pct--34">
+        <mxCell id="Mw96nbkPMHBybhn6pct--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--28" target="Mw96nbkPMHBybhn6pct--34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--28" value="ChangeMergeFailed&lt;div&gt;(MoePakConst.EPakMergeErrorCode.TaskIDErr)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--28" value="ChangeMergeFailed&lt;div&gt;(MoePakConst.EPakMergeErrorCode.TaskIDErr)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2035" y="750" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--29" value="如果任务id&amp;lt;=0，&lt;div&gt;就说明任务创建失败&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--29" value="如果任务id&amp;lt;=0，&lt;div&gt;就说明任务创建失败&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1900" y="733" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--30" value="&lt;div&gt;self.diffFilePath = diffFilepath&lt;/div&gt;&lt;div&gt;self.filePath = filePath&lt;/div&gt;&lt;div&gt;self.mergeFilePath = mergeFilePath&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--30" value="&lt;div&gt;self.diffFilePath = diffFilepath&lt;/div&gt;&lt;div&gt;self.filePath = filePath&lt;/div&gt;&lt;div&gt;self.mergeFilePath = mergeFilePath&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2056" y="870" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.662;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--30">
+        <mxCell id="Mw96nbkPMHBybhn6pct--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.662;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mw96nbkPMHBybhn6pct--19" target="Mw96nbkPMHBybhn6pct--30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1900" y="600" />
@@ -296,37 +296,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--32" value="任务创建成功&lt;div&gt;设置相关变量信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--32" value="任务创建成功&lt;div&gt;设置相关变量信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2280" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--34" target="Mw96nbkPMHBybhn6pct--36">
+        <mxCell id="Mw96nbkPMHBybhn6pct--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--34" target="Mw96nbkPMHBybhn6pct--36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--34" value="ChangeMergeFailed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--34" value="ChangeMergeFailed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2590" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--36" target="Mw96nbkPMHBybhn6pct--39">
+        <mxCell id="Mw96nbkPMHBybhn6pct--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--36" target="Mw96nbkPMHBybhn6pct--39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--36" value="ChangeMergeTaskState&lt;div&gt;(MoePakConst.E_PakMergeState.Failed)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--36" value="ChangeMergeTaskState&lt;div&gt;(MoePakConst.E_PakMergeState.Failed)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2525" y="770" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--37" value="设置本次合并失败的原因&lt;div&gt;并且调用一下方法&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--37" value="设置本次合并失败的原因&lt;div&gt;并且调用一下方法&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2640" y="690" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--39" target="Mw96nbkPMHBybhn6pct--43">
+        <mxCell id="Mw96nbkPMHBybhn6pct--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--39" target="Mw96nbkPMHBybhn6pct--43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--39" value="OnUpdateMergeTaskStateLogic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--39" value="OnUpdateMergeTaskStateLogic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2545" y="890" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--47">
+        <mxCell id="Mw96nbkPMHBybhn6pct--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--49">
+        <mxCell id="Mw96nbkPMHBybhn6pct--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--51">
+        <mxCell id="Mw96nbkPMHBybhn6pct--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3040" y="920" />
@@ -334,92 +334,130 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--43" value="DoFailed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--43" value="DoFailed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2850" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--44" value="删除diffFilePath、filePath、mergeFilePath目录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--44" value="删除diffFilePath、filePath、mergeFilePath目录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3030" y="800" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--44">
+        <mxCell id="Mw96nbkPMHBybhn6pct--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mw96nbkPMHBybhn6pct--43" target="Mw96nbkPMHBybhn6pct--44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--46" value="MoeAssetsUtils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--46" value="MoeAssetsUtils" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3480" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--47" value="RemoveMD5CacheInfo&lt;div&gt;(self.diffPakFile)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--47" value="RemoveMD5CacheInfo&lt;div&gt;(self.diffPakFile)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3475" y="890" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3120" y="1020" as="sourcePoint" />
             <mxPoint x="1270" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--49" value="OnMergeResultCallBack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--49" value="OnMergeResultCallBack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3120" y="973" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--50" value="执行结束后的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--50" value="执行结束后的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3050" y="950" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--51" value="RemoveMergeLoopTimeHandle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--51" value="RemoveMergeLoopTimeHandle" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3105" y="1110" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--52" value="&lt;div&gt;添加循环定时器，每0.5s执行一次&lt;/div&gt;OnTickMerge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--52" value="&lt;div&gt;添加循环定时器，每0.5s执行一次&lt;/div&gt;OnTickMerge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1690" y="180" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--53" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么要每0.5s执行一次？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--53" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么要每0.5s执行一次？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1740" y="230" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--54" value="取消循环定时器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--54" value="取消循环定时器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3050" y="1080" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--56" target="Mw96nbkPMHBybhn6pct--61">
+        <mxCell id="Mw96nbkPMHBybhn6pct--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--56" target="Mw96nbkPMHBybhn6pct--61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--56" value="OnHandlePakMergeNotify&lt;div&gt;(errorCode,inPakName,diffPakName)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--56" value="OnHandlePakMergeNotify&lt;div&gt;(errorCode,inPakName,diffPakName)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="973" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--57" value="MoePufferInstance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mw96nbkPMHBybhn6pct--57" value="MoePufferInstance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--58" value="MarkDiffFileFailed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="963" width="120" height="60" as="geometry" />
+        <mxCell id="Mw96nbkPMHBybhn6pct--58" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MarkDiffFileSuc&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="1100" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="Mw96nbkPMHBybhn6pct--58">
+        <mxCell id="Mw96nbkPMHBybhn6pct--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="Mw96nbkPMHBybhn6pct--58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="Mw96nbkPMHBybhn6pct--64">
+        <mxCell id="Mw96nbkPMHBybhn6pct--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="Mw96nbkPMHBybhn6pct--64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--61" value="如果errorCode ==&amp;nbsp;&lt;div&gt;MoePakConst.EPakMergeErrorCode.None&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="745" y="973" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--62" value="if self.PufferInstance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="960" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--64" target="Mw96nbkPMHBybhn6pct--67">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--64" value="ChangeLoaderState&lt;div&gt;(EMoePakLoaderState.MergeFailed)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1130" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--67" target="Mw96nbkPMHBybhn6pct--68">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--67" target="Mw96nbkPMHBybhn6pct--70">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--67" value="OnDealChangeLoaderState(MergeFailed)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="1130" width="240" height="60" as="geometry" />
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vrY5v6D_-oa1d8lEZZJY-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1160" as="sourcePoint" />
+            <mxPoint x="875" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="1161" />
+              <mxPoint x="870" y="1161" />
+              <mxPoint x="870" y="1430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--68" value="StatusCallBack&lt;div&gt;(self.PakName, oldLoaderStatus, newState)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1575" y="1180" width="260" height="60" as="geometry" />
+        <mxCell id="Mw96nbkPMHBybhn6pct--61" value="如果errorCode ==&amp;nbsp;&lt;div&gt;MoePakConst.EPakMergeErrorCode.None&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1140" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--69" value="返回true，&lt;div&gt;说明确实需要切换状态&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1120" width="140" height="40" as="geometry" />
+        <mxCell id="Mw96nbkPMHBybhn6pct--62" value="if self.PufferInstance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1130" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--70" value="&lt;div&gt;设置旧的state和新的statue&lt;/div&gt;&lt;div&gt;local oldLoaderStatus = self.LoaderState&lt;/div&gt;&lt;div&gt;self.LoaderState = newState&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1575" y="1090" width="240" height="60" as="geometry" />
+        <mxCell id="Mw96nbkPMHBybhn6pct--63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--64" target="Mw96nbkPMHBybhn6pct--67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--64" value="ChangeLoaderState&lt;div&gt;(EMoePakLoaderState.MergeFailed)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1080" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--67" target="Mw96nbkPMHBybhn6pct--68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--67" target="Mw96nbkPMHBybhn6pct--70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--67" value="OnDealChangeLoaderState(MergeFailed)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="1080" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--68" value="StatusCallBack&lt;div&gt;(self.PakName, oldLoaderStatus, newState)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1665" y="1130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--69" value="返回true，&lt;div&gt;说明确实需要切换状态&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1070" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mw96nbkPMHBybhn6pct--70" value="&lt;div&gt;设置旧的state和新的statue&lt;/div&gt;&lt;div&gt;local oldLoaderStatus = self.LoaderState&lt;/div&gt;&lt;div&gt;self.LoaderState = newState&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1665" y="1040" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-1" value="如果是None，&lt;div&gt;就说明merge成功了&lt;/div&gt;&lt;div&gt;，可以准备mount了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1103" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ChangeLoaderState&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-style:italic;&quot;&gt;EMoePakLoaderState&lt;/span&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;MountPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1220" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-4" value="否则就是失败了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1118" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;TryDeleteFile&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1170" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ChangeLoaderState&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;EMoePakLoaderState&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;DownloadPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1260" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ReStartDownloadTask&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="1400" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
