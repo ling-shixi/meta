@@ -633,7 +633,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="77BsFedVGIXCOyJEhH9Z" name="下载数据初始化与刷新">
-    <mxGraphModel dx="716" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -721,7 +721,7 @@
           <mxGeometry x="1525" y="368" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NA7hQgmorC5xM0s7l6Vz-6" value="调用C++端获取已下载大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1575" y="418" width="170" height="30" as="geometry" />
+          <mxGeometry x="1670" y="413" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
