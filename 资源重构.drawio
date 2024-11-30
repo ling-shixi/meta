@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2253" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -657,6 +657,9 @@
           <mxGeometry x="400" y="250" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cEbv5X1kibHwalH5eq4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="5cEbv5X1kibHwalH5eq4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="EBJCk_LxA7f1i_R0lV7n-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cEbv5X1kibHwalH5eq4-6" value="GetOrCreateGroupDownloadInfo&lt;div&gt;(groupId, reCheck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -753,8 +756,8 @@
         <mxCell id="EgfYHaSXt62NNEBrkIG0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EgfYHaSXt62NNEBrkIG0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-12" value="&lt;font color=&quot;#ff0000&quot;&gt;为啥？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3180" y="-152" width="60" height="30" as="geometry" />
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-12" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么编辑器中默认每个puffer都已准备好了？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3125" y="-140" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EgfYHaSXt62NNEBrkIG0-13" value="如果pakMgr:CheckAllPufferIsReady()所有puffer都已准备好，也直接return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2868" y="-60" width="440" height="30" as="geometry" />
@@ -785,6 +788,37 @@
         </mxCell>
         <mxCell id="EBJCk_LxA7f1i_R0lV7n-9" value="如果有puffer没有准备好，就直接返回包组信息，&lt;div&gt;不再进行一下操作，但此时信息中的ChunkGroup为空，没有pak的信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1710" y="113" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="rArM3rnajTcCenrp1fIl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2330" y="235" />
+              <mxPoint x="2330" y="-160" />
+              <mxPoint x="330" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-10" value="local configItem =&amp;nbsp;self.Owner:GetChunkGroupConfigItem(groupId)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="215" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-12" value="&lt;div&gt;在pakRefGroupMap[pak]中添加groupId表示该pak在这个包组中有&lt;/div&gt;&lt;div&gt;group.ChunkGroup中添加pak，表示包组中有这个pak&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;self.__diffCacheFileTotalSize[pak] = nil目前不理解这个啥意思&lt;/font&gt;&lt;/div&gt;&lt;div&gt;group.NeedUpdateChunkGroup = false以及更新过包组中有哪些包的信息了&lt;/div&gt;&lt;div&gt;self.CurChunkGroupInfoMap[groupId] = group在包组map中填上这个包组的信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="280" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="EBJCk_LxA7f1i_R0lV7n-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-1" target="EBJCk_LxA7f1i_R0lV7n-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-15" value="&lt;font color=&quot;#ff0000&quot;&gt;这里为什么不在第一次获取包组信息的时候&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;把包组中pak的信息也填上&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;没必要获取两次包组信息吧？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="133" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-16" value="GetIsInAppDownloadInfo(group)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="255" width="189" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
