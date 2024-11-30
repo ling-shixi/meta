@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cc5ZF6h4ICKkNvJx_7M4" name="merge开始与失败的流程">
-    <mxGraphModel dx="3493" dy="1348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,8 +367,8 @@
         <mxCell id="Mw96nbkPMHBybhn6pct--52" value="&lt;div&gt;添加循环定时器，每0.5s执行一次&lt;/div&gt;OnTickMerge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1690" y="180" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mw96nbkPMHBybhn6pct--53" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么要每0.5s执行一次？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1740" y="230" width="170" height="30" as="geometry" />
+        <mxCell id="Mw96nbkPMHBybhn6pct--53" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么要每0.5s执行一次？&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;我认为是此处不需要太过频繁地检测当前merge的过程进行到哪一步了&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="225" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mw96nbkPMHBybhn6pct--54" value="取消循环定时器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3050" y="1080" width="110" height="30" as="geometry" />
@@ -391,16 +391,16 @@
         <mxCell id="Mw96nbkPMHBybhn6pct--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="Mw96nbkPMHBybhn6pct--64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-2">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-5">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-7">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mw96nbkPMHBybhn6pct--61" target="vrY5v6D_-oa1d8lEZZJY-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vrY5v6D_-oa1d8lEZZJY-9">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="vrY5v6D_-oa1d8lEZZJY-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="1160" as="sourcePoint" />
             <mxPoint x="875" y="1430" as="targetPoint" />
@@ -441,22 +441,22 @@
         <mxCell id="Mw96nbkPMHBybhn6pct--70" value="&lt;div&gt;设置旧的state和新的statue&lt;/div&gt;&lt;div&gt;local oldLoaderStatus = self.LoaderState&lt;/div&gt;&lt;div&gt;self.LoaderState = newState&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1665" y="1040" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-1" value="如果是None，&lt;div&gt;就说明merge成功了&lt;/div&gt;&lt;div&gt;，可以准备mount了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-1" value="如果是None，&lt;div&gt;就说明merge成功了&lt;/div&gt;&lt;div&gt;，可以准备mount了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="1103" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ChangeLoaderState&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-style:italic;&quot;&gt;EMoePakLoaderState&lt;/span&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;MountPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ChangeLoaderState&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-weight:bold;font-style:italic;&quot;&gt;EMoePakLoaderState&lt;/span&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;MountPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="1220" width="410" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-4" value="否则就是失败了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-4" value="否则就是失败了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="725" y="1118" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;TryDeleteFile&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;TryDeleteFile&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1170" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ChangeLoaderState&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;EMoePakLoaderState&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;DownloadPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ChangeLoaderState&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;EMoePakLoaderState&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;DownloadPrepared&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1260" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vrY5v6D_-oa1d8lEZZJY-9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ReStartDownloadTask&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vrY5v6D_-oa1d8lEZZJY-9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ReStartDownloadTask&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="985" y="1400" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -625,12 +625,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="1554" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5cEbv5X1kibHwalH5eq4-1" value="MoeChunkGroupManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="50" width="160" height="60" as="geometry" />
+          <mxGeometry x="70" y="-330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-2" target="5cEbv5X1kibHwalH5eq4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-2" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-3" value="下载一堆包组，&lt;div&gt;一般用于下载显示在下载界面的所有包组&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-4" value="MoeChunkGroupDownloadSchedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-330" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="5cEbv5X1kibHwalH5eq4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-5" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="5cEbv5X1kibHwalH5eq4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-6" value="GetOrCreateGroupDownloadInfo&lt;div&gt;(groupId, reCheck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-9" value="遍历每一个包组&lt;div&gt;先获取包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="153" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-10" value="reCheck&#39;为false，&lt;div&gt;就可以略过很多高耗时的操作&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="118" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-11" value="GetOrCreateChunkGroupInfo(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-13" value="首先获取包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="38" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rArM3rnajTcCenrp1fIl-2" value="GetChunkGroupConfigItem(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rArM3rnajTcCenrp1fIl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rArM3rnajTcCenrp1fIl-4" target="rArM3rnajTcCenrp1fIl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1535" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rArM3rnajTcCenrp1fIl-4" value="如果self.CurChunkGroupInfoMap[groupId]==nil&lt;div&gt;说明还未初始化过该包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-15" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rArM3rnajTcCenrp1fIl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-11" target="rArM3rnajTcCenrp1fIl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rArM3rnajTcCenrp1fIl-7" value="先获取当前包组的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-62" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
