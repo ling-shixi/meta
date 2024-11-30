@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2328" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -782,6 +782,9 @@
             <mxPoint x="2420" y="730" as="sourcePoint" />
             <mxPoint x="2420" y="-450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-9" value="如果有puffer没有准备好，就直接返回包组信息，&lt;div&gt;不再进行一下操作，但此时信息中的ChunkGroup为空，没有pak的信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="113" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
