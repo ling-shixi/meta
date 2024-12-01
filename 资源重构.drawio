@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.0" pages="6">
   <diagram name="类与数据结构UML" id="ZvRVtKMHqjIb7jlLaT23">
-    <mxGraphModel dx="5981" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5945" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="RTVj7qtDhxxn7ZNXmpM9-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MoePufferInstance&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;（与puffer服务器一对一，几乎一个玩法一个puffer，一次性下载几个由FMoePufferInstance决定）&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DownLoadTasks:TMap&amp;lt;int32,MoePufferDownloadTask&amp;gt; 每个pak都是一个下载任务&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Priority: int32&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CurrState: EPufferInstanceState&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RemotePakVersVO: MoePakVersionVO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CurrentPakVersVO: MoePakVersionVO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pufferType:EPufferType // 0 ：默认puffer， 1：feature puffer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id:int32&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;font style=&quot;font-size: 13px;&quot;&gt;fPuffer&amp;nbsp; //UE中的pufferInstance，真正进行下载工作的对象&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Init():void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Close():void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Puase():void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Resume():void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetDownlaodTask(int32 TaskId):MoePufferDownloadTask&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateDownloadTask():int32&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DestroyDownloadTask(int32 id):bool&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+&amp;nbsp;OnUpdatePakDownloadList()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+&amp;nbsp;StartDownloadTask(params)&amp;nbsp; //下载&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+&amp;nbsp;CheckDiffFileHasFailed(diffFileName)&amp;nbsp; //&lt;span style=&quot;font-style: italic;&quot;&gt;判断是否二进制差异更新失败&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="240" y="730" width="490" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="RTVj7qtDhxxn7ZNXmpM9-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MoePufferDownloadTask&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;（与pak一对一，只是一个下载任务，不进行下载操作）&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;owner&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fPuffer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;priority&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;gcPriority&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pakFile&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;diffNormalPakFile&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;taskId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;taskState&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mutexTag：下载的pak所在的包组id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;retryCnt&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__mutexExtraInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__mutexExtraInfo.priorityCache：该pak所在的某一个包组的下载优先级&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ StartDownload(Action&amp;lt;bool&amp;gt; OnDownloadFinish):bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ StopDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PauseDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ResumeDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FinishDownload():bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="RTVj7qtDhxxn7ZNXmpM9-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MoePufferDownloadTask&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;（与pak一对一，只是一个下载任务，不进行下载操作）&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;owner&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fPuffer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;priority&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;gcPriority&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pakFile&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;diffNormalPakFile&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;taskId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;taskState&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mutexTag：下载的pak哪些包组中有&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;retryCnt&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__mutexExtraInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__mutexExtraInfo.priorityCache：该pak所在的某一个包组的下载优先级&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ StartDownload(Action&amp;lt;bool&amp;gt; OnDownloadFinish):bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ StopDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PauseDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ResumeDownload():bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FinishDownload():bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="780" y="1020" width="402.5" height="320" as="geometry" />
         </mxCell>
         <mxCell id="RTVj7qtDhxxn7ZNXmpM9-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MoePakManager&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;（pak单包管理器，全局单例，主要是下载和mount两部分）&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PakLoaderMap:TMap&amp;lt;FString,MoePakLoader&amp;gt;&amp;nbsp; //每个pak的加载器列表&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PufferManager:MoePufferManager&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ msdkConfig:MoeMSDKConfig&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&amp;nbsp;PufferManager&amp;nbsp; //puffer对象管理器&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPakLoader(FString PakName):MoePakLoader&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPakLoaders(TArray&amp;lt;FString&amp;gt; PakNames) :TArray&amp;lt;MoePakLoader&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PreparePakFiles(mergetype,TArray&amp;lt;FString&amp;gt; PakName):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;（&lt;span style=&quot;background-color: initial;&quot;&gt;Download + Merge&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;+&amp;nbsp;GetPakLoaderList(inChunkName)&amp;nbsp; //&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;FFCzMMd8Jv6xjD_hLUZD&quot;&gt;+&amp;nbsp;ChangeDownloadLevel(inPakName, inTaskLevel)&amp;nbsp; //修改下载优先级&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;FFCzMMd8Jv6xjD_hLUZD&quot;&gt;+&amp;nbsp;DeleteFile(inPakName, bCanReDownload)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;FFCzMMd8Jv6xjD_hLUZD&quot;&gt;+&amp;nbsp;MountPak(inPakName)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;FFCzMMd8Jv6xjD_hLUZD&quot;&gt;+&amp;nbsp;UnMountPak(inPakName)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mount 异步+同步&amp;nbsp; &amp;nbsp;1pakname 2 callback 3 isAutoPrepare&amp;nbsp; &amp;nbsp;当触发下载的时候，Push一个Event&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -1210,7 +1210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mi3upt8WAsaBwaiXo09l" name="下载优先级">
-    <mxGraphModel dx="1188" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1257,11 +1257,16 @@
         <mxCell id="-iX8otMSWJ3a1N52mhtF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-14" target="-iX8otMSWJ3a1N52mhtF-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-14" target="-iX8otMSWJ3a1N52mhtF-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1999" y="745" />
+              <mxPoint x="1999" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-iX8otMSWJ3a1N52mhtF-14" value="UdpateDownloadFileMutexTag(groupId, priority, taskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="715" width="221" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-iX8otMSWJ3a1N52mhtF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-15" target="-iX8otMSWJ3a1N52mhtF-22">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-iX8otMSWJ3a1N52mhtF-15" value="GetTaskPoolPriority(inTaskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1832" y="675" width="200" height="60" as="geometry" />
@@ -1284,8 +1289,41 @@
         <mxCell id="-iX8otMSWJ3a1N52mhtF-21" value="MoePufferInstance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2400" y="30" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-22" target="-iX8otMSWJ3a1N52mhtF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-22" target="-iX8otMSWJ3a1N52mhtF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-iX8otMSWJ3a1N52mhtF-22" value="UdpateDownloadFileMutexTag(self.PakName, mutexTag, priority, gcPriority)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2325" y="675" width="270" height="60" as="geometry" />
+          <mxGeometry x="2307" y="795" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-24" value="GetDownloadTaskByFilename(fileName)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2727" y="737" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-26" value="MoePufferDownloadTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iX8otMSWJ3a1N52mhtF-27" target="AOcRuXjoEzk8xFQki8xo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-27" value="AppendDownloadTaskMutexTag(mutexTag, priority, gcPriority)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3232" y="831" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-iX8otMSWJ3a1N52mhtF-29" value="获取pak的下载任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2762" y="700" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-1" value="设置pak在该包组中的下载优先级&lt;div&gt;如果已有当前pak在该包组中的下载任务，就返回false&lt;/div&gt;&lt;div&gt;没有就创建优先级并返回true&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3200" y="910" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AOcRuXjoEzk8xFQki8xo-4" target="AOcRuXjoEzk8xFQki8xo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-4" value="AutoUpdateDownloadPriority" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3630" y="831" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOcRuXjoEzk8xFQki8xo-6" value="ChangeDownloadFilePriority(priority, gcPriority, isAuto)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3940" y="831" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
