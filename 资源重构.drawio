@@ -855,6 +855,18 @@
         <mxCell id="zegwxUL89KQ7tsU-fR5h-10" value="如果puffer没有准备好/初始化失败&lt;div&gt;就直接吧需要下载的大小设为100MB来&lt;/div&gt;&lt;div&gt;诱导玩家再次点击下载以再次出发初始化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="990" y="320" width="240" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zegwxUL89KQ7tsU-fR5h-11" target="zegwxUL89KQ7tsU-fR5h-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-11" value="如果group and group.DownloadInfo&lt;div&gt;并且包组不在底包中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="500" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="zegwxUL89KQ7tsU-fR5h-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-13" value="如果group.DownloadInfo.HasInited为false，&lt;div&gt;即包组信息还没有初始化过&lt;/div&gt;&lt;div&gt;就强制把reCheck设为true&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="480" width="260" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
