@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="1747" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -888,6 +888,12 @@
         <mxCell id="DKOrTGj42sUnfdID28H5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1clx_jqjv_z5-9Xy4Aw-1" target="W1clx_jqjv_z5-9Xy4Aw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W1clx_jqjv_z5-9Xy4Aw-1" target="DKOrTGj42sUnfdID28H5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1clx_jqjv_z5-9Xy4Aw-1" target="DKOrTGj42sUnfdID28H5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W1clx_jqjv_z5-9Xy4Aw-1" value="GetAndUpdateGroupState(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="570" width="270" height="60" as="geometry" />
         </mxCell>
@@ -953,8 +959,49 @@
         <mxCell id="DKOrTGj42sUnfdID28H5-7" value="如果包组信息读取失败、包组中pak的信息为nil，puffer未初始化成功或者NeedUpdateChunkGroup，&lt;div&gt;需要刷新一遍包组中有哪些pak，返回MoeChunkCommonDefine.GroupState.Invalid&lt;/div&gt;&lt;div&gt;即不能对包组进行下载&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2353" y="630" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DKOrTGj42sUnfdID28H5-8" value="如果包组中所有的pak都已下载完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2345" y="738" width="210" height="30" as="geometry" />
+        <mxCell id="DKOrTGj42sUnfdID28H5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-9" target="DKOrTGj42sUnfdID28H5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-9" value="GetPakLocalState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4160" y="1210" as="sourcePoint" />
+            <mxPoint x="4140" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-13" value="MoePakLoader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4428.5" y="-310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-14" value="IsPakDownloadFinished" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4429" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-16" value="&lt;div&gt;先获取pakloader，如果为nil，就返回nil&lt;/div&gt;&lt;div&gt;检测从pakloader信息中检测包组是否下载成功&lt;/div&gt;如果当前pak的LoaderState是准备mount、mount成功或失败&lt;div&gt;就说明以及下载完成，返回MoeChunkCommonDefine.GroupState.Finish&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="770" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-17" value="否则如果当前pak已存在就返回MoeChunkCommonDefine.GroupState.Update" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="870" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-9" target="DKOrTGj42sUnfdID28H5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-19" value="否则就说明包组还未开始下载，&lt;div&gt;返回MoeChunkCommonDefine.GroupState.None&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="920" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-9" target="DKOrTGj42sUnfdID28H5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-21" value="遍历每一个pak，如果pak全部下载成功&lt;div&gt;就返回MoeChunkCommonDefine.GroupState.Finish下载完成&lt;/div&gt;&lt;div&gt;如果有个别pak下载成功，&lt;/div&gt;&lt;div&gt;就返回MoeChunkCommonDefine.GroupState.Continue继续下载&lt;/div&gt;&lt;div&gt;如果没有一个pak下载完，&lt;/div&gt;&lt;div&gt;即返回当前包组的下载状态&lt;/div&gt;&lt;div&gt;即根据cache信息获取的下载状态&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="810" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.629;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-21" target="W1clx_jqjv_z5-9Xy4Aw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2301" y="980" />
+              <mxPoint x="3072" y="980" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
