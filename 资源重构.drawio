@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2328" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1039,6 +1039,9 @@
         <mxCell id="unCPsn3MEVdWylHXeG-M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-31" target="unCPsn3MEVdWylHXeG-M-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="unCPsn3MEVdWylHXeG-M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-31" target="unCPsn3MEVdWylHXeG-M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DKOrTGj42sUnfdID28H5-31" value="StartDownloadGroup(groupId, MoeChunkCommonDefine.TaskLevel.Normal,false)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="1501" width="280" height="60" as="geometry" />
         </mxCell>
@@ -1173,6 +1176,29 @@
         </mxCell>
         <mxCell id="unCPsn3MEVdWylHXeG-M-9" value="通过了以上检查，可以开始下载包组，把下载状态改为正在下载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1461.25" y="1860" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="unCPsn3MEVdWylHXeG-M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unCPsn3MEVdWylHXeG-M-10" target="unCPsn3MEVdWylHXeG-M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unCPsn3MEVdWylHXeG-M-10" target="eoeWwwieC03xzRWn3fbb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unCPsn3MEVdWylHXeG-M-10" value="StartPakLoaderDownload(pakLoader, inGroupId, inTaskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1527.5" y="2000" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unCPsn3MEVdWylHXeG-M-12" value="IsNeedCheckFreeSpace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1920" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-1" value="每个一段时间检查下剩余的磁盘空间是多大" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1880" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-3" value="IsHavenFreeWorkSpace(inPakLoader)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="2020" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-6" value="需要检查剩余空间大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1990" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
