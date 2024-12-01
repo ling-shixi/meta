@@ -1185,8 +1185,14 @@
             <mxPoint x="1990" y="2020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unCPsn3MEVdWylHXeG-M-10" target="eoeWwwieC03xzRWn3fbb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unCPsn3MEVdWylHXeG-M-10" target="eoeWwwieC03xzRWn3fbb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="unCPsn3MEVdWylHXeG-M-10" value="StartPakLoaderDownload(pakLoader, inGroupId, inTaskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1527.5" y="2000" width="215" height="60" as="geometry" />
+          <mxGeometry x="1533.75" y="2000" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="unCPsn3MEVdWylHXeG-M-12" value="IsNeedCheckFreeSpace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1980" y="1920" width="170" height="60" as="geometry" />
@@ -1199,6 +1205,18 @@
         </mxCell>
         <mxCell id="eoeWwwieC03xzRWn3fbb-6" value="需要检查剩余空间大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1990" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-8" value="PakLoaderDownloadReal(inPakLoader, inGroupId, inTaskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="2250" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-10" value="PauseDownloadGroup(inGroupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="2130" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-12" value="剩余空间不足，暂停下载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2088" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eoeWwwieC03xzRWn3fbb-13" value="可以下载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="2210" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
