@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2067" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,8 +864,14 @@
         <mxCell id="zegwxUL89KQ7tsU-fR5h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="zegwxUL89KQ7tsU-fR5h-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2LbkLb7nEPTzZpbKEL1S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zegwxUL89KQ7tsU-fR5h-13" target="ZoTpO-E-y77L-gHKQsqO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zegwxUL89KQ7tsU-fR5h-13" value="如果group.DownloadInfo.HasInited为false，&lt;div&gt;即包组信息还没有初始化过&lt;/div&gt;&lt;div&gt;就强制把reCheck设为true&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="480" width="260" height="60" as="geometry" />
+          <mxGeometry x="990" y="570" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoTpO-E-y77L-gHKQsqO-1" value="如果reCheck&amp;nbsp;&lt;div&gt;and (group.DownloadInfo.DownloadState &amp;lt;= MoeChunkCommonDefine.DownloadState.None 目前还没有下载，并且需要下载&lt;/div&gt;&lt;div&gt;and not group.NeedUpdateChunkGroup接下来需要获取包组大小，需要在pak信息更新后进行&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="570" width="690" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
