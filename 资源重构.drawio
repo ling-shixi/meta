@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.0" pages="5">
   <diagram name="类与数据结构UML" id="ZvRVtKMHqjIb7jlLaT23">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -631,165 +631,168 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="1747" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5cEbv5X1kibHwalH5eq4-1" value="MoeChunkGroupManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-1" value="MoeChunkGroupManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="-330" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-2" target="5cEbv5X1kibHwalH5eq4-5">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-2" target="5cEbv5X1kibHwalH5eq4-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-2" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-2" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="250" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-3" value="下载一堆包组，&lt;div&gt;一般用于下载显示在下载界面的所有包组&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-3" value="下载一堆包组，&lt;div&gt;一般用于下载显示在下载界面的所有包组&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-20" y="190" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-4" value="MoeChunkGroupDownloadSchedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-4" value="MoeChunkGroupDownloadSchedule" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="-330" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="5cEbv5X1kibHwalH5eq4-6">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="5cEbv5X1kibHwalH5eq4-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-5" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-5" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="250" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="5cEbv5X1kibHwalH5eq4-11">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="5cEbv5X1kibHwalH5eq4-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="EBJCk_LxA7f1i_R0lV7n-16">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="EBJCk_LxA7f1i_R0lV7n-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-6" value="GetOrCreateGroupDownloadInfo&lt;div&gt;(groupId, reCheck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-6" target="zegwxUL89KQ7tsU-fR5h-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cEbv5X1kibHwalH5eq4-6" value="GetOrCreateGroupDownloadInfo&lt;div&gt;(groupId, reCheck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="170" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-9" value="遍历每一个包组&lt;div&gt;先获取包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-9" value="遍历每一个包组&lt;div&gt;先获取包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="153" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-10" value="reCheck&#39;为false，&lt;div&gt;就可以略过很多高耗时的操作&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-10" value="reCheck&#39;为false，&lt;div&gt;就可以略过很多高耗时的操作&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="720" y="118" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-11" value="GetOrCreateChunkGroupInfo(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-11" value="GetOrCreateChunkGroupInfo(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="40" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-13" value="首先获取包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5cEbv5X1kibHwalH5eq4-13" value="首先获取包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="970" y="38" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rArM3rnajTcCenrp1fIl-2" target="rArM3rnajTcCenrp1fIl-9">
+        <mxCell id="rArM3rnajTcCenrp1fIl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rArM3rnajTcCenrp1fIl-2" target="rArM3rnajTcCenrp1fIl-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-2" value="GetChunkGroupConfigItem(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-2" value="GetChunkGroupConfigItem(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="-92" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rArM3rnajTcCenrp1fIl-4" target="rArM3rnajTcCenrp1fIl-2">
+        <mxCell id="rArM3rnajTcCenrp1fIl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rArM3rnajTcCenrp1fIl-4" target="rArM3rnajTcCenrp1fIl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1535" y="-60" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-4" value="如果self.CurChunkGroupInfoMap[groupId]==nil&lt;div&gt;说明还未初始化过该包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-4" value="如果self.CurChunkGroupInfoMap[groupId]==nil&lt;div&gt;说明还未初始化过该包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1400" y="-15" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-11" target="rArM3rnajTcCenrp1fIl-4">
+        <mxCell id="rArM3rnajTcCenrp1fIl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-11" target="rArM3rnajTcCenrp1fIl-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-7" value="先获取F-分包表中相应包组的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-7" value="先获取F-分包表中相应包组的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1340" y="-92" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="680" as="sourcePoint" />
             <mxPoint x="380" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-9" value="GetChunkGroupConfigMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-9" value="GetChunkGroupConfigMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="-92" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-11" value="直接返回self.CurChunkGroupConfigMap&lt;div&gt;即F-分包表中的数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-11" value="直接返回self.CurChunkGroupConfigMap&lt;div&gt;即F-分包表中的数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-30" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rArM3rnajTcCenrp1fIl-12" value="返回F-分包表中相应包组的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rArM3rnajTcCenrp1fIl-12" value="返回F-分包表中相应包组的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="85" y="-22" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OkrL8AyqHjBuT8yEN-5--1" value="group = _MOE.Utils.CommonUtils:DeepCopy(MoeChunkCommonDefine.ChunkGroupInfo)&lt;div&gt;&lt;div&gt;group.NeedUpdateChunkGroup = true&lt;/div&gt;&lt;div&gt;group.NeedUpdateDownloadInfo = true&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OkrL8AyqHjBuT8yEN-5--1" value="group = _MOE.Utils.CommonUtils:DeepCopy(MoeChunkCommonDefine.ChunkGroupInfo)&lt;div&gt;&lt;div&gt;group.NeedUpdateChunkGroup = true&lt;/div&gt;&lt;div&gt;group.NeedUpdateDownloadInfo = true&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-107" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OkrL8AyqHjBuT8yEN-5--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.646;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rArM3rnajTcCenrp1fIl-4" target="OkrL8AyqHjBuT8yEN-5--1">
+        <mxCell id="OkrL8AyqHjBuT8yEN-5--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.646;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rArM3rnajTcCenrp1fIl-4" target="OkrL8AyqHjBuT8yEN-5--1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkrL8AyqHjBuT8yEN-5--3" value="深拷贝一份包组信息，之后进行赋值和修改后存入CurChunkGroupInfoMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OkrL8AyqHjBuT8yEN-5--3" value="深拷贝一份包组信息，之后进行赋值和修改后存入CurChunkGroupInfoMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1800" y="-130" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-1" target="EgfYHaSXt62NNEBrkIG0-3">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-1" target="EgfYHaSXt62NNEBrkIG0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-1" value="如果group.NeedUpdateChunkGroup需要更新包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-1" value="如果group.NeedUpdateChunkGroup需要更新包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1400" y="55" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-11" target="EgfYHaSXt62NNEBrkIG0-1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-11" target="EgfYHaSXt62NNEBrkIG0-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-3" target="EgfYHaSXt62NNEBrkIG0-6">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-3" target="EgfYHaSXt62NNEBrkIG0-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-3" value="IsPufferReadyByGroupId(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-3" value="IsPufferReadyByGroupId(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1800" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-5" value="MoeAssetsUtils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-5" value="MoeAssetsUtils" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2550" y="-330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-3">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-6" value="CheckPufferIsReadyByGroupId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-6" value="CheckPufferIsReadyByGroupId" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2520" y="40" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-8" value="通过groupId获取到对应featureName&lt;div&gt;再通过featureName获取到对应puffer是否初始化完成&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-8" value="通过groupId获取到对应featureName&lt;div&gt;再通过featureName获取到对应puffer是否初始化完成&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2450" y="-22" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-10" value="如果MoeAssetsUtils.IsEditor(true)，在编辑器中就直接return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-10" value="如果MoeAssetsUtils.IsEditor(true)，在编辑器中就直接return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2860" y="-122" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EgfYHaSXt62NNEBrkIG0-10">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EgfYHaSXt62NNEBrkIG0-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-12" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么编辑器中默认每个puffer都已准备好了？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-12" value="&lt;font color=&quot;#ff0000&quot;&gt;为什么编辑器中默认每个puffer都已准备好了？&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3125" y="-140" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-13" value="如果pakMgr:CheckAllPufferIsReady()所有puffer都已准备好，也直接return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-13" value="如果pakMgr:CheckAllPufferIsReady()所有puffer都已准备好，也直接return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2868" y="-60" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EgfYHaSXt62NNEBrkIG0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EgfYHaSXt62NNEBrkIG0-13">
+        <mxCell id="EgfYHaSXt62NNEBrkIG0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EgfYHaSXt62NNEBrkIG0-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-1" value="如果local groupConf = _MOE.Config.ChunkGroupData:GetDataByKey(groupId)为nil，&lt;div&gt;没有包组信息也返回nil，没有包组信息，后续也不会下载&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-1" value="如果local groupConf = _MOE.Config.ChunkGroupData:GetDataByKey(groupId)为nil，&lt;div&gt;没有包组信息也返回nil，没有包组信息，后续也不会下载&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2870" y="-15" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-3" value="如果pakMgr:CheckPufferIsReadyByChunkName(chunkName)为nil，&lt;div&gt;某一个pak需要的puffer初始化失败返回false，&lt;/div&gt;&lt;div&gt;但如果dailReset为true，初始化失败需要重新初始化，&lt;/div&gt;&lt;div&gt;就pakMgr:ResetPufferByChunkName(chunkName)重新初始化，但结果仍然返回false&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-3" value="如果pakMgr:CheckPufferIsReadyByChunkName(chunkName)为nil，&lt;div&gt;某一个pak需要的puffer初始化失败返回false，&lt;/div&gt;&lt;div&gt;但如果dailReset为true，初始化失败需要重新初始化，&lt;/div&gt;&lt;div&gt;就pakMgr:ResetPufferByChunkName(chunkName)重新初始化，但结果仍然返回false&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2860" y="38" width="480" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-5" value="否则，如果每一个pak对应的puffer都初始化成功&lt;div&gt;就返回true&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-5" value="否则，如果每一个pak对应的puffer都初始化成功&lt;div&gt;就返回true&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2870" y="140" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-5">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-6" target="EBJCk_LxA7f1i_R0lV7n-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2420" y="730" as="sourcePoint" />
             <mxPoint x="2420" y="-450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-9" value="如果有puffer没有准备好，就直接返回包组信息，&lt;div&gt;不再进行一下操作，但此时信息中的ChunkGroup为空，没有pak的信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-9" value="如果有puffer没有准备好，就直接返回包组信息，&lt;div&gt;不再进行一下操作，但此时信息中的ChunkGroup为空，没有pak的信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1710" y="113" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="rArM3rnajTcCenrp1fIl-2">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="rArM3rnajTcCenrp1fIl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2330" y="235" />
@@ -798,27 +801,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-10" value="local configItem =&amp;nbsp;self.Owner:GetChunkGroupConfigItem(groupId)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-10" value="local configItem =&amp;nbsp;self.Owner:GetChunkGroupConfigItem(groupId)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1715" y="215" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-12" value="&lt;div&gt;在pakRefGroupMap[pak]中添加groupId表示该pak在这个包组中有&lt;/div&gt;&lt;div&gt;group.ChunkGroup中添加pak，表示包组中有这个pak&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;self.__diffCacheFileTotalSize[pak] = nil目前不理解这个啥意思&lt;/font&gt;&lt;/div&gt;&lt;div&gt;group.NeedUpdateChunkGroup = false以及更新过包组中有哪些包的信息了&lt;/div&gt;&lt;div&gt;self.CurChunkGroupInfoMap[groupId] = group在包组map中填上这个包组的信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-12" value="&lt;div&gt;在pakRefGroupMap[pak]中添加groupId表示该pak在这个包组中有&lt;/div&gt;&lt;div&gt;group.ChunkGroup中添加pak，表示包组中有这个pak&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;self.__diffCacheFileTotalSize[pak] = nil目前不理解这个啥意思&lt;/font&gt;&lt;/div&gt;&lt;div&gt;group.NeedUpdateChunkGroup = false以及更新过包组中有哪些包的信息了&lt;/div&gt;&lt;div&gt;self.CurChunkGroupInfoMap[groupId] = group在包组map中填上这个包组的信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1960" y="280" width="450" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="EBJCk_LxA7f1i_R0lV7n-12">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EBJCk_LxA7f1i_R0lV7n-10" target="EBJCk_LxA7f1i_R0lV7n-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgfYHaSXt62NNEBrkIG0-1" target="EBJCk_LxA7f1i_R0lV7n-10">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EgfYHaSXt62NNEBrkIG0-1" target="EBJCk_LxA7f1i_R0lV7n-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1570" y="241" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-15" value="&lt;font color=&quot;#ff0000&quot;&gt;这里为什么不在第一次获取包组信息的时候&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;把包组中pak的信息也填上&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;没必要获取两次包组信息吧？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-15" value="&lt;font color=&quot;#ff0000&quot;&gt;这里为什么不在第一次获取包组信息的时候&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;把包组中pak的信息也填上&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;没必要获取两次包组信息吧？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2160" y="133" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EBJCk_LxA7f1i_R0lV7n-16" value="GetIsInAppDownloadInfo(group)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EBJCk_LxA7f1i_R0lV7n-16" value="GetIsInAppDownloadInfo(group)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120.5" y="255" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-1" value="如果在底包中，&lt;div&gt;就直接返回包组已下载完成&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zegwxUL89KQ7tsU-fR5h-2" target="rArM3rnajTcCenrp1fIl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="410" />
+              <mxPoint x="1380" y="-47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-2" value="GetPufferNotReadyDownLoadInfo(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="380" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.328;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="zegwxUL89KQ7tsU-fR5h-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380.5" y="392.3526315789475" as="sourcePoint" />
+            <mxPoint x="1868.88" y="84.99999999999982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-6" value="如果puffer没有准备好/初始化失败&lt;div&gt;就直接吧需要下载的大小设为100MB来&lt;/div&gt;&lt;div&gt;诱导玩家再次点击下载以再次出发初始化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-7" value="DownloadInfo.DownloadSize = (config.downloadSize or 0) * 1024 * 1024" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="440" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zegwxUL89KQ7tsU-fR5h-2" target="zegwxUL89KQ7tsU-fR5h-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zegwxUL89KQ7tsU-fR5h-10" value="如果puffer没有准备好/初始化失败&lt;div&gt;就直接吧需要下载的大小设为100MB来&lt;/div&gt;&lt;div&gt;诱导玩家再次点击下载以再次出发初始化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="320" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
