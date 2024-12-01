@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2067" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -653,6 +653,9 @@
         <mxCell id="5cEbv5X1kibHwalH5eq4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="5cEbv5X1kibHwalH5eq4-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="DKOrTGj42sUnfdID28H5-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5cEbv5X1kibHwalH5eq4-5" value="StartDownloadGroupList" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="250" width="140" height="60" as="geometry" />
         </mxCell>
@@ -668,11 +671,11 @@
         <mxCell id="5cEbv5X1kibHwalH5eq4-6" value="GetOrCreateGroupDownloadInfo&lt;div&gt;(groupId, reCheck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="170" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-9" value="遍历每一个包组&lt;div&gt;先获取包组的下载信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="560" y="153" width="140" height="40" as="geometry" />
+        <mxCell id="5cEbv5X1kibHwalH5eq4-9" value="遍历每一个包组&lt;div&gt;先获取包组的下载信息&lt;/div&gt;&lt;div&gt;包括当前处于哪一种下载状态和&lt;div&gt;还需要下载的多大&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="123" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5cEbv5X1kibHwalH5eq4-10" value="reCheck&#39;为false，&lt;div&gt;就可以略过很多高耗时的操作&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="720" y="118" width="180" height="40" as="geometry" />
+        <mxCell id="5cEbv5X1kibHwalH5eq4-10" value="reCheck&#39;为false，&lt;div&gt;就可以略过很多高耗时的操作&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;我认为这些高耗时的操作主要是获取&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;已下载文件的大小&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="710" y="70" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5cEbv5X1kibHwalH5eq4-11" value="GetOrCreateChunkGroupInfo(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="40" width="230" height="60" as="geometry" />
@@ -1006,11 +1009,62 @@
         <mxCell id="DKOrTGj42sUnfdID28H5-23" value="&lt;font color=&quot;#ff0000&quot;&gt;这个函数会返回包组的最新下载状态，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;但是此处并没有使用下载状态的信息，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以这个为什么还要有这段代码？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2050" y="640" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DKOrTGj42sUnfdID28H5-24" value="如果group.State == MoeChunkCommonDefine.GroupState.Continue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="680" width="390" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="DKOrTGj42sUnfdID28H5-25" value="&lt;font color=&quot;#ff0000&quot;&gt;此处需要直接读取本地文件大小，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;消耗较大&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3308" y="390" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-26" value="根据包组当前的下载状态设置剩余需要下载的大小和接下来的状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="670" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZoTpO-E-y77L-gHKQsqO-1" target="DKOrTGj42sUnfdID28H5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-29" target="DKOrTGj42sUnfdID28H5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-29" value="如果downloadInfo.DownloadState &lt;= MoeChunkCommonDefine.DownloadState.None" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-31" target="9BERAMWRa7RxrbQvjHLC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-31" value="StartDownloadGroup(groupId, MoeChunkCommonDefine.TaskLevel.Normal,false)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="870" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-33" target="DKOrTGj42sUnfdID28H5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-33" value="如果downloadInfo.DownloadState == MoeChunkCommonDefine.DownloadState.Ing&lt;div&gt;如果正在下载，就只修改下载优先级至Normal&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="973" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="DKOrTGj42sUnfdID28H5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-35" value="ChangeDownloadTaskLevel(groupId, MoeChunkCommonDefine.TaskLevel.Normal)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="963" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DKOrTGj42sUnfdID28H5-37" target="WK4fV78gmZCNVYaioPYy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-37" value="如果downloadInfo.DownloadState == MoeChunkCommonDefine.DownloadState.Pause" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1078" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cEbv5X1kibHwalH5eq4-5" target="DKOrTGj42sUnfdID28H5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK4fV78gmZCNVYaioPYy-2" value="ResumeDownloadGroup(groupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1104.5" y="1063" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9BERAMWRa7RxrbQvjHLC-2" target="9BERAMWRa7RxrbQvjHLC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-2" value="CheckGroupIsInDownloading(inGroupId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="775" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-4" value="如果包组正在下载就只修改包组下载优先级至Normal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="745" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BERAMWRa7RxrbQvjHLC-6" value="ChangeDownloadTaskLevel(groupId, taskLevel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="775" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
