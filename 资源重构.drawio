@@ -631,7 +631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2328" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1002,6 +1002,15 @@
               <mxPoint x="3072" y="980" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-23" value="&lt;font color=&quot;#ff0000&quot;&gt;这个函数会返回包组的最新下载状态，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;但是此处并没有使用下载状态的信息，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以这个为什么还要有这段代码？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="640" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-24" value="如果group.State == MoeChunkCommonDefine.GroupState.Continue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="680" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DKOrTGj42sUnfdID28H5-25" value="&lt;font color=&quot;#ff0000&quot;&gt;此处需要直接读取本地文件大小，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;消耗较大&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3308" y="390" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
