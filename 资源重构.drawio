@@ -637,7 +637,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载信息的初始化与下载任务的创建">
-    <mxGraphModel dx="4879" dy="3461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2757" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1352,6 +1352,17 @@
         <mxCell id="WT-xKAYDLrvriA7aafc6-2" value="获取当前文件的下载任务，&lt;div&gt;如果没有，就什么都不做&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5855" y="2203" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="fjnHu3OrLBY5fQJNI2zC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WT-xKAYDLrvriA7aafc6-3" target="fjnHu3OrLBY5fQJNI2zC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg9tfmUJ83bYcJirUtru-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WT-xKAYDLrvriA7aafc6-3" target="Hg9tfmUJ83bYcJirUtru-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7940" y="2540" />
+              <mxPoint x="7940" y="1458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WT-xKAYDLrvriA7aafc6-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;ChangeDownloadTaskState&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;MoePufferConst&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;E_PufferDownloadTaskState&lt;span style=&quot;color:#bdbdbd;&quot;&gt;.&lt;/span&gt;Wait&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7015" y="2510" width="700" height="60" as="geometry" />
         </mxCell>
@@ -1641,6 +1652,18 @@
             <mxPoint x="8060" y="4150" as="sourcePoint" />
             <mxPoint x="8060" y="2670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fjnHu3OrLBY5fQJNI2zC-2" value="广播下&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;MoePufferConst&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;E_PufferEventKey&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;TaskDownloadStateChange&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="7805" y="2320" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fjnHu3OrLBY5fQJNI2zC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WT-xKAYDLrvriA7aafc6-3" target="fjnHu3OrLBY5fQJNI2zC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fjnHu3OrLBY5fQJNI2zC-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;OnUpdateDownloadTaskLogic&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7850" y="2395" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg9tfmUJ83bYcJirUtru-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MarkUpdateDownloadTaskListFlag&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5325" y="1428" width="301" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
