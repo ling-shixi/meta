@@ -1485,8 +1485,14 @@
         <mxCell id="Yf3Ly5OScd5XHx736i1E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yf3Ly5OScd5XHx736i1E-6" target="Yf3Ly5OScd5XHx736i1E-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yf3Ly5OScd5XHx736i1E-20" value="获取本地文件的MD5值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="8280" y="2898" width="140" height="30" as="geometry" />
+        <mxCell id="Yf3Ly5OScd5XHx736i1E-20" value="获取缓存的本地文件的MD5值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="8260" y="2898" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf3Ly5OScd5XHx736i1E-21" value="由于此处不适用缓存，所以直接去根据文件获取&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;localMD5 = UE4&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;USPLuaUtility&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;GetMD5&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;localPath&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="8070" y="3030" width="710" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf3Ly5OScd5XHx736i1E-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yf3Ly5OScd5XHx736i1E-6" target="Yf3Ly5OScd5XHx736i1E-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
