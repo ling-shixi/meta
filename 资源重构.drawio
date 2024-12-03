@@ -637,7 +637,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UyM8k2Oa14alGE7s-cyv" name="下载流程">
-    <mxGraphModel dx="2960" dy="2375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2589" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1588,8 +1588,8 @@
         <mxCell id="nVn8dxTmXNgmjbmyD_SR-24" value="获取puffer的本地文件&lt;div&gt;缓存路径&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;localPath&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="7000" y="3400" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nrmA46b-puM_eLsuRpyS-1" value="&lt;font color=&quot;#cc0000&quot;&gt;获取/创建diff文件路径（包括diff版本）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="6670" y="3358" width="230" height="30" as="geometry" />
+        <mxCell id="nrmA46b-puM_eLsuRpyS-1" value="&lt;font color=&quot;#cc0000&quot;&gt;获取/创建diff文件路径（包括diff版本）&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;方式是根据本地的md5值和puffer服务器上的md5值版本做对比&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;找到需要的对应的diff文件版本来下载&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6620" y="3330" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KHSn6jYGj67xD_3zu6---1" value="如果本地diff文件存在就直接返回diff文件路径&lt;div&gt;如果不存在，就先创建再返回&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="7020" y="3467" width="260" height="40" as="geometry" />
