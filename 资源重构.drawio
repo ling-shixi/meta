@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="25.0.1" pages="9">
   <diagram name="类与数据结构Lua端" id="ZvRVtKMHqjIb7jlLaT23">
-    <mxGraphModel dx="6650" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2017,7 +2017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yE414nGjFgqAOi1ArMs0" name="mount流程">
-    <mxGraphModel dx="2515" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2113,8 +2113,11 @@
         <mxCell id="w28nSA6-G_OkdwlQfmMd-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;MountGroup&lt;/span&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;groupId&lt;/span&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="720" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w28nSA6-G_OkdwlQfmMd-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MountGroup&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;groupId&lt;span style=&quot;color:#bdbdbd;&quot;&gt;, &lt;/span&gt;bIsAvatarPak&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="720" width="380" height="60" as="geometry" />
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w28nSA6-G_OkdwlQfmMd-5" target="-JiWtJ-YC1XUC7bM2xkl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w28nSA6-G_OkdwlQfmMd-5" target="-JiWtJ-YC1XUC7bM2xkl-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w28nSA6-G_OkdwlQfmMd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="w28nSA6-G_OkdwlQfmMd-5" target="r2qw2PplTEnhJ4jCmQF4-4">
           <mxGeometry relative="1" as="geometry">
@@ -2123,8 +2126,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="w28nSA6-G_OkdwlQfmMd-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MountGroup&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;groupId&lt;span style=&quot;color:#bdbdbd;&quot;&gt;, &lt;/span&gt;bIsAvatarPak&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="720" width="380" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="w28nSA6-G_OkdwlQfmMd-8" value="先获取包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1255" y="648" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoePakManager&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;CreateOrGetPakLoader(&lt;span style=&quot;font-size: 15.8pt; white-space: normal;&quot;&gt;pakName&lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal; color: rgb(189, 189, 189);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal;&quot;&gt;isLogIfAlreadyCreate&lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal; color: rgb(189, 189, 189);&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="570" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoeNormalPakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JiWtJ-YC1XUC7bM2xkl-5" target="-JiWtJ-YC1XUC7bM2xkl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;TryMountPak&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2555" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-7" value="底包不需要mount&lt;div&gt;只有静态包或者普通包需要进行相应的&lt;/div&gt;&lt;div&gt;mount&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;TryMountPak&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3175" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-11" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoeBasePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2517.5" y="80" width="195" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
