@@ -2017,7 +2017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yE414nGjFgqAOi1ArMs0" name="mount流程">
-    <mxGraphModel dx="2515" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3721" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2138,23 +2138,17 @@
         <mxCell id="-JiWtJ-YC1XUC7bM2xkl-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;CreateOrGetPakLoader(&lt;span style=&quot;font-size: 15.8pt; white-space: normal;&quot;&gt;pakName&lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal; color: rgb(189, 189, 189);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal;&quot;&gt;isLogIfAlreadyCreate&lt;/span&gt;&lt;span style=&quot;font-size: 15.8pt; white-space: normal; color: rgb(189, 189, 189);&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1720" y="570" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoeNormalPakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3120" y="80" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JiWtJ-YC1XUC7bM2xkl-5" target="-JiWtJ-YC1XUC7bM2xkl-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-JiWtJ-YC1XUC7bM2xkl-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;TryMountPak&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2555" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-JiWtJ-YC1XUC7bM2xkl-7" value="底包不需要mount&lt;div&gt;只有静态包或者普通包需要进行相应的&lt;/div&gt;&lt;div&gt;mount&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="710" width="230" height="60" as="geometry" />
+          <mxGeometry x="2400" y="730" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;TryMountPak&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3175" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-11" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoeBasePakLoader&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-11" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 15.8pt;&quot;&gt;MoeNormalPakLoader&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2517.5" y="80" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JiWtJ-YC1XUC7bM2xkl-12" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;IsMounted&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
