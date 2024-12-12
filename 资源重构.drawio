@@ -2259,7 +2259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f3qmraslcCr3LRGb55j3" name="mount流程时序图">
-    <mxGraphModel dx="3680" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3416" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2270,7 +2270,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MountGroups&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;GroupIds&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="22.5" y="300" width="225" height="60" as="geometry" />
+          <mxGeometry x="15" y="300" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;MountGroups&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;GroupIds&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="300" width="210" height="60" as="geometry" />
@@ -2293,8 +2293,8 @@
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-10" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;CheckGroupStateAndMount&lt;span style=&quot;color:#bdbdbd;&quot;&gt;(&lt;/span&gt;groupId&lt;span style=&quot;color:#bdbdbd;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-32.5" y="490" width="335" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a9SKs_N2C1XUQoc7GvlV-11" value="返回true表示资源已准备好，可以直接调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-32.5" y="468" width="250" height="30" as="geometry" />
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-11" value="&lt;div&gt;先检查包组的mount状态&lt;/div&gt;返回true表示资源已准备好，可以直接调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-32.5" y="445" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.828;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a9SKs_N2C1XUQoc7GvlV-4" target="a9SKs_N2C1XUQoc7GvlV-10">
           <mxGeometry relative="1" as="geometry">
@@ -2474,7 +2474,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-61" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 13px;&quot;&gt;如果mount成功&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 13px;&quot;&gt;并且bIsAvatarPak为nil&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 13px;&quot;&gt;需要触发事件_MOE.EventEnum.ON_CHUNKGROUP_RELOAD_SHADER&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="833" width="460" height="60" as="geometry" />
+          <mxGeometry x="1500" y="820" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a9SKs_N2C1XUQoc7GvlV-31" target="a9SKs_N2C1XUQoc7GvlV-61">
           <mxGeometry relative="1" as="geometry" />
@@ -2492,7 +2492,55 @@
           <mxGeometry x="-1463" y="620" width="445" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a9SKs_N2C1XUQoc7GvlV-67" value="同时&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 15.8pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;SucceedMountedPaks为此次mount的pak&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="920" width="410" height="40" as="geometry" />
+          <mxGeometry x="1535" y="907" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-68" value="&lt;font color=&quot;#cc0000&quot;&gt;mount包组接口&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="258" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-83" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1250" y="4092.0511568509614" as="sourcePoint" />
+            <mxPoint x="-620" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-84" value="shader相关的pak加载成功后需要重新加载shader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="588" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-85" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="4940" as="sourcePoint" />
+            <mxPoint x="100" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-86" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.467;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="128" y="3465" as="sourcePoint" />
+            <mxPoint x="810" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-87" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="4110.833435058594" as="sourcePoint" />
+            <mxPoint x="1620" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-88" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="3740" as="sourcePoint" />
+            <mxPoint x="2370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-89" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2610" y="3865" as="sourcePoint" />
+            <mxPoint x="2690" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9SKs_N2C1XUQoc7GvlV-90" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9SKs_N2C1XUQoc7GvlV-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4280" y="2250" as="sourcePoint" />
+            <mxPoint x="4260" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
