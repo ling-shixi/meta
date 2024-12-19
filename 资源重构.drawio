@@ -2026,7 +2026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yE414nGjFgqAOi1ArMs0" name="mount流程">
-    <mxGraphModel dx="5031" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4355" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2139,7 +2139,7 @@
           <mxGeometry x="1080" y="720" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w28nSA6-G_OkdwlQfmMd-8" value="先获取包组信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1255" y="648" width="110" height="30" as="geometry" />
+          <mxGeometry x="1260" y="640" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-JiWtJ-YC1XUC7bM2xkl-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.8pt;&quot;&gt;MoePakManager&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="80" width="180" height="60" as="geometry" />
