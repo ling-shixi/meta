@@ -2246,8 +2246,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EwIYG8zPTyO9zbAmLV05" name="热更新启动时序图">
-    <mxGraphModel dx="2253" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="EwIYG8zPTyO9zbAmLV05" name="热更新启动与Tick接受回调事件时序图">
+    <mxGraphModel dx="2505" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2300,7 +2300,7 @@
         <mxCell id="wY0duu4Q_DL_ys1ymPe7-10" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;MSDKDolphin&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wY0duu4Q_DL_ys1ymPe7-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wY0duu4Q_DL_ys1ymPe7-10">
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wY0duu4Q_DL_ys1ymPe7-37" target="wY0duu4Q_DL_ys1ymPe7-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="1210" as="sourcePoint" />
             <mxPoint x="540" y="390" as="targetPoint" />
@@ -2332,7 +2332,7 @@
         </mxCell>
         <mxCell id="wY0duu4Q_DL_ys1ymPe7-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wY0duu4Q_DL_ys1ymPe7-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="970" y="1220" as="sourcePoint" />
+            <mxPoint x="970" y="1878.8235294117646" as="sourcePoint" />
             <mxPoint x="710" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -2362,6 +2362,90 @@
         </mxCell>
         <mxCell id="wY0duu4Q_DL_ys1ymPe7-32" value="初始化dolphin并开启更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="133" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-33" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="130" width="1640" height="590" as="geometry">
+            <mxRectangle x="-290" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-34" value="热更新的启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-35" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;FDolphinCallback&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wY0duu4Q_DL_ys1ymPe7-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="1760" as="sourcePoint" />
+            <mxPoint x="1320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wY0duu4Q_DL_ys1ymPe7-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="1750" as="sourcePoint" />
+            <mxPoint x="650" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wY0duu4Q_DL_ys1ymPe7-37" target="wY0duu4Q_DL_ys1ymPe7-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="1170.0434782608697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wY0duu4Q_DL_ys1ymPe7-37" target="wY0duu4Q_DL_ys1ymPe7-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-37" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;OnTick&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-40" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;Tick&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-41" value="在保障线程安全的前提下&lt;div&gt;让dolphin返回返回一个回调方法&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1060" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-44" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;pGCloudDolphin&lt;span style=&quot;color:#bdbdbd;&quot;&gt;-&amp;gt;&lt;/span&gt;PollCallback&lt;span style=&quot;color:#bdbdbd;&quot;&gt;();&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1100" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wY0duu4Q_DL_ys1ymPe7-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-45" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;OnRecvEvent&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-47" value="从dolphincallback的事件池中取出并处理数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="1200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-48" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;SendEvent&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-49" value="将接收到的dolphin的回校信息存入事件池" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1070" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-50" value="好处是可以让一切业务层流程&lt;div&gt;全部在lua中处理&lt;/div&gt;&lt;div&gt;Cpp中只负责提供相应额接口&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-51" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;OnHandleCallback&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-53" value="处理不同的事件，并调用回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1338" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-54" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1050" width="1160" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-55" value="事件的接受与处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-56" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;MSDKDolphin&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-57" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;FMoeDolphinManager&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="850" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wY0duu4Q_DL_ys1ymPe7-58" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;FDolphinCallback&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="850" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
