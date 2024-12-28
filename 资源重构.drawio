@@ -2451,7 +2451,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OshxcRz8sswgRfVfFuyJ" name="puffer阻塞更新时序图">
-    <mxGraphModel dx="2123" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10334" dy="5207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2580,8 +2580,8 @@
         <mxCell id="rbN8DV4xSp5k2uTw8ceW-35" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#85c46c;font-style:italic;&quot;&gt;puffer json &lt;/span&gt;&lt;span style=&quot;color:#85c46c;font-style:italic;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;配置下载&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-260" y="288" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rbN8DV4xSp5k2uTw8ceW-36" value="读取下载下来的puffer阻塞更新&lt;div&gt;需要的三张表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="200" y="525" width="190" height="40" as="geometry" />
+        <mxCell id="rbN8DV4xSp5k2uTw8ceW-36" value="读取下载下来的puffer阻塞更新&lt;div&gt;需要的三张表&lt;/div&gt;&lt;div&gt;其中特别注意包体信息包括了本地跨版本时需要走二进制更新的底包？（这是啥玩意儿？）&lt;/div&gt;&lt;div&gt;和其他所有的pak信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="45" y="510" width="500" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbN8DV4xSp5k2uTw8ceW-37" target="Vp7obkK9Vnj2RWiLQeQ8-6">
           <mxGeometry relative="1" as="geometry" />
@@ -2672,14 +2672,38 @@
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-24" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;Puffer_CheckUpdate&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-240" y="1040" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vp7obkK9Vnj2RWiLQeQ8-26" target="oQdzdtuPXJz3KAMXYqft-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-26" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;VerifyUpdateFiles&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="1040" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-29" value="所有预下载pak目录移动后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-270" y="770" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-30" value="检查本地目录的&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;BasePakListfile文件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;如果为空，就直接删掉本地所有的pak&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;并重新下载pak&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="980" width="220" height="60" as="geometry" />
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-1" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;根据服务器最新pak信息检查本地目录的&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;BasePakListfile文件&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;如果为空，就直接删掉本地所有的pak&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;并重新下载pak&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;并且对于差量更新的文件，优先下载并且存入需要合并的文件列表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;其中注意跨版本时走二进制更新的底包和其他包的添加方式不同，具体见DiffListfile.json&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; white-space: pre-wrap;&quot;&gt;（尽管过程一样）&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1120" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oQdzdtuPXJz3KAMXYqft-3" target="oQdzdtuPXJz3KAMXYqft-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetUpdateFiles&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-5" value="需要下载的文件大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oQdzdtuPXJz3KAMXYqft-6" target="oQdzdtuPXJz3KAMXYqft-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-6" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;Puffer_ResDownlaod&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;DownloadRes&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQdzdtuPXJz3KAMXYqft-10" value="下载文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1400" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
