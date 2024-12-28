@@ -2451,7 +2451,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OshxcRz8sswgRfVfFuyJ" name="puffer阻塞更新时序图">
-    <mxGraphModel dx="1691" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2586,6 +2586,14 @@
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbN8DV4xSp5k2uTw8ceW-37" target="Vp7obkK9Vnj2RWiLQeQ8-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbN8DV4xSp5k2uTw8ceW-37" target="Vp7obkK9Vnj2RWiLQeQ8-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="800" />
+              <mxPoint x="-470" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rbN8DV4xSp5k2uTw8ceW-37" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;PreDownloadAppResCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="690" width="210" height="60" as="geometry" />
         </mxCell>
@@ -2624,9 +2632,6 @@
         </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-10" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;InitQueueTasks&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="830" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-12" value="初始化&lt;span style=&quot;color: rgb(189, 189, 189); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 16px; background-color: rgb(38, 38, 38);&quot;&gt;PreDownloadApplyInstance的任务列表&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="265" y="900" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-13" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c9a26d;&quot;&gt;PreDownloadApplyTask&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="20" width="170" height="60" as="geometry" />
@@ -2669,6 +2674,12 @@
         </mxCell>
         <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-26" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;VerifyUpdateFiles&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="1040" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-29" value="所有预下载pak目录移动后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="770" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7obkK9Vnj2RWiLQeQ8-30" value="检查本地目录的&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;BasePakListfile文件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;如果为空，就直接删掉本地所有的pak&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: initial;&quot;&gt;并重新下载pak&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="980" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
