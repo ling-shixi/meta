@@ -2463,7 +2463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OshxcRz8sswgRfVfFuyJ" name="puffer阻塞更新时序图">
-    <mxGraphModel dx="2669" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7580" dy="3820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2568,10 +2568,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YLXl9PLe_zkelI6I7cYW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="rbN8DV4xSp5k2uTw8ceW-25" edge="1">
+        <mxCell id="YLXl9PLe_zkelI6I7cYW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rbN8DV4xSp5k2uTw8ceW-25" target="YLXl9PLe_zkelI6I7cYW-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2225" y="1980" />
+              <mxPoint x="2225" y="1911" />
             </Array>
             <mxPoint x="2405" y="427.05000000000024" as="sourcePoint" />
             <mxPoint x="-40" y="1979.997368421053" as="targetPoint" />
