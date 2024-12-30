@@ -2463,7 +2463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OshxcRz8sswgRfVfFuyJ" name="puffer阻塞更新时序图">
-    <mxGraphModel dx="7580" dy="3820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2669" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2992,9 +2992,6 @@
         </mxCell>
         <mxCell id="_BhTnj405XnzJ9GGmxDC-17" value="阻塞热更结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-385.38" y="2368" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_BhTnj405XnzJ9GGmxDC-18" value="其实这里可以再加一部分检查&lt;div&gt;不过也可以不加&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-625" y="2440" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
