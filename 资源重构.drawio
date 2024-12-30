@@ -2463,7 +2463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OshxcRz8sswgRfVfFuyJ" name="puffer阻塞更新时序图">
-    <mxGraphModel dx="4204" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4879" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2962,6 +2962,9 @@
         </mxCell>
         <mxCell id="_BhTnj405XnzJ9GGmxDC-7" value="将从服务器上下载下来的md5信息与&lt;div&gt;本地预下载下来的md5信息做对比&lt;/div&gt;&lt;div&gt;如果不同就肯定不符&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1100" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BhTnj405XnzJ9GGmxDC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_BhTnj405XnzJ9GGmxDC-8" target="_BhTnj405XnzJ9GGmxDC-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_BhTnj405XnzJ9GGmxDC-8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;EnterMD5Checking&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1230" width="160" height="60" as="geometry" />
