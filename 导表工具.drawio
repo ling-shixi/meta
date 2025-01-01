@@ -13,35 +13,35 @@
         <mxCell id="ml-K04kPEU6mxTsvXC_G-2" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;_table_RelatedTable&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="330" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ml-K04kPEU6mxTsvXC_G-4" value="获取每个sheet的proto&lt;div&gt;、table和pbin&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="190" y="340" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ml-K04kPEU6mxTsvXC_G-5" target="f6NRc0c9WLY2QuTVg-Pm-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-5" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;_table_RelatedTable&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="413" y="110" width="160" height="60" as="geometry" />
+          <mxGeometry x="698.5" y="90" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ml-K04kPEU6mxTsvXC_G-6" target="ml-K04kPEU6mxTsvXC_G-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-6" value="生成pbin信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="433" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="718.5" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-8" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;get_res_convert_map_by_excelList&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="374.5" y="410" width="237" height="60" as="geometry" />
+          <mxGeometry x="660" y="390" width="237" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ml-K04kPEU6mxTsvXC_G-10" value="获取与上一次对比新增的pbin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="611.5" y="425" width="180" height="30" as="geometry" />
+          <mxGeometry x="897" y="405" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f6NRc0c9WLY2QuTVg-Pm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f6NRc0c9WLY2QuTVg-Pm-2" target="ml-K04kPEU6mxTsvXC_G-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f6NRc0c9WLY2QuTVg-Pm-2" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;getRelatedTableList&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="424.5" y="200" width="137" height="60" as="geometry" />
+          <mxGeometry x="710" y="180" width="137" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f6NRc0c9WLY2QuTVg-Pm-4" value="获取已有记载的依赖关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="573" y="218" width="160" height="30" as="geometry" />
+          <mxGeometry x="858.5" y="198" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NRc0c9WLY2QuTVg-Pm-5" value="生成excel中有哪些sheet信息&lt;div&gt;以pbin为单位，&lt;/div&gt;&lt;div&gt;与上一次的结果（&lt;span style=&quot;font-size: 14px; text-align: left; white-space: pre-wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;res_convert_map.txt）&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;做对比&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;将新增的sheet增加进相应的excel的value&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;其中如果info中相应的excel有value就不加&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;如果是&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left; white-space: pre-wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RelatedTable.json中记载&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: left; white-space: pre-wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的有table见依赖关系的就直接加入&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="295" width="300" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
