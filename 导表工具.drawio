@@ -905,7 +905,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YqFMVd9p1vZ_FHNFeCGS" name="协议导表——PB">
-    <mxGraphModel dx="1688" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3377" dy="3079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,6 +1016,152 @@
         </mxCell>
         <mxCell id="k_UIUk7UsBcV2_CzQkai-37" value="负责&lt;span style=&quot;font-size: 12pt;&quot;&gt;Excel&lt;/span&gt;&lt;span style=&quot;&quot;&gt;目录&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1535" y="498" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-1" target="y9KTZy4vvharBGjHrONe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-1" target="y9KTZy4vvharBGjHrONe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-1" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;ExportConfig.make_pb_path&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="860" y="860" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-2" target="y9KTZy4vvharBGjHrONe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-2" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ExportConfig.&lt;/span&gt;make_main_pb_path&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="750" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-3" target="y9KTZy4vvharBGjHrONe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-3" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ExportConfig.&lt;/span&gt;make_all_feature_pb_path&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="960" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-6" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal; font-size: 12pt;&quot;&gt;ExportConfig.&lt;/span&gt;out_pb_list&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="750" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-8" target="y9KTZy4vvharBGjHrONe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-8" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal; font-size: 12pt;&quot;&gt;ExportConfig.&lt;/span&gt;make_feature_pb_path&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="960" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-12" target="y9KTZy4vvharBGjHrONe-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1560" />
+              <mxPoint x="1040" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-12" target="y9KTZy4vvharBGjHrONe-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1560" />
+              <mxPoint x="1040" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-12" target="y9KTZy4vvharBGjHrONe-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1560" />
+              <mxPoint x="1040" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-12" target="y9KTZy4vvharBGjHrONe-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1560" />
+              <mxPoint x="1040" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-12" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;ParseProtoEnum.run&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1530" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-13" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ParseProtoEnum.&lt;/span&gt;get_all_file&lt;span style=&quot;font-size: 12pt;&quot;&gt;(dir_path, file_extension)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1390" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-16" target="y9KTZy4vvharBGjHrONe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-16" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;ParseProtoEnum.parse_enum&lt;/span&gt;&lt;span style=&quot;font-size: 0.875em; text-align: start; white-space-collapse: preserve;&quot;&gt;(file_path, result)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1590" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="y9KTZy4vvharBGjHrONe-18" target="y9KTZy4vvharBGjHrONe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-18" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;ParseProtoEnum.retain_enum&lt;/span&gt;&lt;span style=&quot;font-size: 0.875em; text-align: start; white-space-collapse: preserve;&quot;&gt;(file_content, result)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="1590" width="415" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-22" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ParseProtoEnum.&lt;/span&gt;dict_to_lua_string&lt;span style=&quot;font-size: 0.875em; text-align: start; white-space-collapse: preserve;&quot;&gt;(dict_result)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1780" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-25" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ParseProtoEnum.&lt;/span&gt;enum_to_dict&lt;span style=&quot;font-size: 0.875em; text-align: start; white-space-collapse: preserve;&quot;&gt;(enum_content, result)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="1590" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-29" value="通过正则匹配出文件中的每一个枚举" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="1550" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-32" value="将得到的正则匹配转换为字符串，便于写入lua" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="1740" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-33" value="生成&lt;span style=&quot;text-align: start; white-space: pre-wrap;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;ServerEnum.lua&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-34" value="将得到的枚举作为字符串写入lua文件" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1960" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-36" value="对得到的每个proto文件循环调用，file_patjh即proto文件&lt;div&gt;打开file_path文件&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1540" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-37" value="将获得的枚举存入result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-38" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;protos/&lt;/span&gt;common_proto&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;protos/&lt;/span&gt;cs_attr_proto&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;protos/&lt;/span&gt;cs_proto&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;excel/&lt;/span&gt;proto&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="1260" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-39" value="获取&lt;span style=&quot;font-size: 16px; text-wrap-mode: wrap;&quot;&gt;dir_path目录下的所有&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-wrap-mode: wrap;&quot;&gt;file_extension格式的文件&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1330" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-40" value="其实就是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="1338" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-41" value="目录下所有的proto文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="1338" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-42" value="这里最终会获得关于proto中所有枚举&lt;div&gt;的字典&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1580" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-43" value="将获得的字典转为字符串" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1768" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-44" value="将获得的字符串以utf-8格式写入lua" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1958" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-45" value="得到所有的proto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1390" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-46" value="将pb的文件名作为字符串写入&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PBPath&lt;/span&gt;.lua中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="708" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-47" value="获取主玩法相关的proto文件，也就是&lt;span style=&quot;&quot;&gt;\excel\proto目录下（不含子目录有）的proto&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="720" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-48" value="生成&lt;span style=&quot;font-size: 16px;&quot;&gt;PBPath&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.lua&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="885" y="818" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-49" value="获取每个副玩法的proto文件，也就是&lt;span style=&quot;&quot;&gt;\excel\proto所有子目录下的proto&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="930" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-50" value="获取每个副玩法相关的proto文件，&lt;div&gt;也就是&lt;span style=&quot;&quot;&gt;\excel\proto{feature_name}目录下的proto&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="920" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9KTZy4vvharBGjHrONe-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
