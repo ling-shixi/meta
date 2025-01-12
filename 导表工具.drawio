@@ -1167,7 +1167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-HiUINTCik5kydSWriqC" name="导表工具信息预处理时序图">
-    <mxGraphModel dx="2328" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1327,7 +1327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LQ-G8L_OJ0BYQKxwCrWy" name="导表工具生成行索引与所在pbin映射（按行拆表）及编译proto成py时序图">
-    <mxGraphModel dx="2067" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
