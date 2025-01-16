@@ -2147,7 +2147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l8ZFKXvzzTo3-JdAaZse" name="导表工具界面UIUML图">
-    <mxGraphModel dx="2701" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2172,8 +2172,8 @@
         <mxCell id="Gb2OEx9MjVgUEsCtA0hs-6" value="搜索框需要在json中配置触发事件与对应的触发条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontColor=default;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1350" y="290" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Gb2OEx9MjVgUEsCtA0hs-9" value="原来就有一个json文件里面&lt;div&gt;需要存储多选框的设置，&lt;/div&gt;&lt;div&gt;计划改为直接修改读取配置的json文件&lt;/div&gt;&lt;div&gt;并且对json进行拆分，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;搜索框、下拉框、&lt;/span&gt;按钮和复选框使用同一个json&lt;/div&gt;&lt;div&gt;（可以配置在工具栏上每两个工具图标间空一点距离，与工具栏布局和存储复选框和下拉框选项配置相关，对外开放进行扩展）&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;exceltree&lt;/span&gt;&lt;span style=&quot;&quot;&gt;使用一个json&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontColor=default;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="77" y="60" width="750" height="120" as="geometry" />
+        <mxCell id="Gb2OEx9MjVgUEsCtA0hs-9" value="原来就有一个json文件里面&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;需要存储多选框的设置，&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;计划改为直接修改读取配置的json文件&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;并且对json进行拆分，&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot;&gt;搜索框、下拉框、&lt;/span&gt;按钮和复选框使用同一个json&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;（可以配置在工具栏上每两个工具图标间空一点距离，与工具栏布局和存储复选框和下拉框选项配置相关，对外开放进行扩展）&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot;&gt;exceltree&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot;&gt;使用一个json&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;在json中配置工具的种类还是有必要的，&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;因为这个需要靠json中配置的先后关系来作为这些工具在工具栏上的排列顺序，&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px;&quot;&gt;而exceltree的布局与工具栏无关，所以我计划把exceltree的配置和工具栏上工具的配置分到两个json中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontColor=default;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="77" y="35" width="750" height="170" as="geometry" />
         </mxCell>
         <mxCell id="z6HoAww1SblS9J-I4qOd-2" value="复选框则直接使用&lt;span style=&quot;&quot;&gt;wx.EVT_CHECKBOX&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="960" y="740" width="250" height="30" as="geometry" />
