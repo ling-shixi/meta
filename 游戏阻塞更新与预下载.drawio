@@ -1,19 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.6" pages="2">
   <diagram name="puffer阻塞更新ChangeStage时序图" id="0s5m7xCLdTFkOoqI4KA0">
-    <mxGraphModel dx="2122" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2381" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-1" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;VersionUpdateManager&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="50" width="180" height="1060" as="geometry" />
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-1" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;VersionUpdateManager&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="50" width="180" height="3270" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-6" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;DownloadPufferConfig&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-6" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;DownloadPufferConfig&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-1" vertex="1">
           <mxGeometry x="85" y="130" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-1" vertex="1">
           <mxGeometry x="-150" y="120" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" source="xy1dMGJrIOf6ou0YAkFt-4" parent="xy1dMGJrIOf6ou0YAkFt-1" target="xy1dMGJrIOf6ou0YAkFt-6">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-1" source="xy1dMGJrIOf6ou0YAkFt-4" target="xy1dMGJrIOf6ou0YAkFt-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-145" y="220" as="targetPoint" />
             <Array as="points">
@@ -22,133 +22,352 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-25" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;LoadServerPufferConfig&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-25" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;LoadServerPufferConfig&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-1" vertex="1">
           <mxGeometry x="85" y="320" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-26" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadAppResCheck&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
-          <mxGeometry x="85" y="550" width="10" height="80" as="geometry" />
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-26" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadAppResCheck&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-1" vertex="1">
+          <mxGeometry x="85" y="550" width="10" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-7" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;Puffer_ConfigDownload&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="JN5cIUua4xNDYKDP3sKf-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;UpdatePreDownloadAppResCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
+          <mxGeometry x="85" y="1311" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-40" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;OnSuccessMoveFile&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-1">
+          <mxGeometry x="85" y="1600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-7" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;Puffer_ConfigDownload&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="120" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-8" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;MSDKPuffer&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="50" width="100" height="1050" as="geometry" />
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-8" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;MSDKPuffer&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="50" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-10" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;DownLoadFileList&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-8">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-10" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;DownLoadFileList&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-8" vertex="1">
           <mxGeometry x="44" y="130" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-9" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;FMoePufferManager&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-9" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;FMoePufferManager&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1790" y="50" width="160" height="1040" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-15" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;DownloadList&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-9">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-15" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;DownloadList&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-9" vertex="1">
           <mxGeometry x="75" y="130" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-11" value="需要下载的文件列表构成的字符串，和是否强行下载" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="xy1dMGJrIOf6ou0YAkFt-10" parent="1" source="xy1dMGJrIOf6ou0YAkFt-6">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-11" value="需要下载的文件列表构成的字符串，和是否强行下载" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-6" target="xy1dMGJrIOf6ou0YAkFt-10" edge="1">
           <mxGeometry x="-0.0022" relative="1" as="geometry">
             <mxPoint x="414" y="185" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-16" value="需要下载的文件列表，和是否强行下载" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="xy1dMGJrIOf6ou0YAkFt-15" parent="1" source="xy1dMGJrIOf6ou0YAkFt-10">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-16" value="需要下载的文件列表，和是否强行下载" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-10" target="xy1dMGJrIOf6ou0YAkFt-15" edge="1">
           <mxGeometry x="0.0021" relative="1" as="geometry">
             <mxPoint x="1800" y="185" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-18" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;IGcloudPufferInterface&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-18" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;IGcloudPufferInterface&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2080" y="50" width="200" height="1030" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-19" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;DownloadBatchList&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="xy1dMGJrIOf6ou0YAkFt-18">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-19" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;DownloadBatchList&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="xy1dMGJrIOf6ou0YAkFt-18" vertex="1">
           <mxGeometry x="95" y="130" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-20" value="需要下载的文件列表，是否强行下载，和下载优先级" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="xy1dMGJrIOf6ou0YAkFt-19" parent="1" source="xy1dMGJrIOf6ou0YAkFt-15">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-20" value="需要下载的文件列表，是否强行下载，和下载优先级" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-15" target="xy1dMGJrIOf6ou0YAkFt-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2090" y="185" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-60" y="360" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" source="xy1dMGJrIOf6ou0YAkFt-22" parent="1" target="xy1dMGJrIOf6ou0YAkFt-25">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-22" target="xy1dMGJrIOf6ou0YAkFt-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-45" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-24" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;Puffer_PreDownloadCheck&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-24" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;Puffer_PreDownloadCheck&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-210" y="300" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy1dMGJrIOf6ou0YAkFt-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1" source="xy1dMGJrIOf6ou0YAkFt-22" target="xy1dMGJrIOf6ou0YAkFt-26">
+        <mxCell id="xy1dMGJrIOf6ou0YAkFt-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-22" target="xy1dMGJrIOf6ou0YAkFt-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="385" as="targetPoint" />
             <mxPoint x="-20" y="385" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-1" value="更新puffer更新需要的三个文件&lt;div&gt;如果与云端版本相同，将不会下载&lt;/div&gt;&lt;div&gt;这过程由sdk全权负责&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="200" height="60" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-1" value="更新puffer更新需要的三个文件&lt;div&gt;如果与云端版本相同，将不会下载&lt;/div&gt;&lt;div&gt;这过程由sdk全权负责&lt;/div&gt;&lt;div&gt;下载下来的文件是否在{downloadPath}/FileList目录&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="135" y="225" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-2" value="解析&lt;span style=&quot;font-size: 12pt;&quot;&gt;Puffer_ConfigDownload部分下载的文件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;并读取到内存中&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-2" value="解析&lt;span style=&quot;font-size: 12pt;&quot;&gt;Puffer_ConfigDownload部分下载的文件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;并读取到内存中&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="90" y="450" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-6" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;HDiffMergeTask&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="50" width="140" height="1020" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-6" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;HDiffMergeTask&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="50" width="140" height="3080" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-7" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApply&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="50" width="140" height="990" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-7" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApply&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="50" width="140" height="2990" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-9" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;CreateApplyInstance&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-7">
-          <mxGeometry x="65" y="550" width="10" height="240" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-9" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;CreateApplyInstance&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-7" vertex="1">
+          <mxGeometry x="65" y="840" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-16" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="QiWSNsGMa9dIWaTv_Qcn-15" parent="QiWSNsGMa9dIWaTv_Qcn-7" source="QiWSNsGMa9dIWaTv_Qcn-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="570" as="sourcePoint" />
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Tick&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-7">
+          <mxGeometry x="65" y="1382" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-8" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApplyTask&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="50" width="290" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-16" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" target="QiWSNsGMa9dIWaTv_Qcn-15" edge="1">
+          <mxGeometry x="-0.0437" y="30" relative="1" as="geometry">
+            <mxPoint x="-185" y="945" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="130" y="720" />
-              <mxPoint x="130" y="735" />
+              <mxPoint x="-185" y="940" />
+              <mxPoint x="-130" y="940" />
+              <mxPoint x="-130" y="955" />
             </Array>
-            <mxPoint x="80" y="730" as="targetPoint" />
+            <mxPoint x="-180" y="955" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-15" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;InitQueueTasks&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-7">
-          <mxGeometry x="75" y="730" width="10" height="40" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-15" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;InitQueueTasks&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" vertex="1">
+          <mxGeometry x="-185" y="950" width="10" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-8" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApplyTask&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="50" width="180" height="990" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-18" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;CreateTask&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" vertex="1">
+          <mxGeometry x="140" y="955" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-18" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;CreateTask&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
-          <mxGeometry x="80" y="740" width="10" height="30" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-19" value="预下载文件信息与最新文件信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" source="QiWSNsGMa9dIWaTv_Qcn-15" target="QiWSNsGMa9dIWaTv_Qcn-18" edge="1">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="-170" y="960" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-10" value="根据location.version 本地版本号信息获取本地的阻塞更新相关三个文件信息并解析到内存" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="QiWSNsGMa9dIWaTv_Qcn-9" parent="1" source="xy1dMGJrIOf6ou0YAkFt-26">
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-20" value="移动预下载信息到{downloadpath}下载目录的任务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" source="QiWSNsGMa9dIWaTv_Qcn-18" target="QiWSNsGMa9dIWaTv_Qcn-15" edge="1">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
+            <mxPoint x="10" y="1030" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-21" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" vertex="1">
+          <mxGeometry x="-80" y="850" width="370" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-22" value="创建移动预下载目录中文件到&lt;div&gt;{downloadpath}下载目录下的任务&lt;/div&gt;&lt;div&gt;其中每个任务包括最新的pak的md5&lt;/div&gt;&lt;div&gt;预下载目录下的路径和md5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="QiWSNsGMa9dIWaTv_Qcn-8" vertex="1">
+          <mxGeometry x="75" y="880" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;EnterInit&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="1050" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;EnterMD5Checking&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="1382" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-11" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;TickMD5Checking&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="1440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-15" value="&lt;pre style=&quot;color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;Start&lt;/span&gt;&lt;/pre&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="995" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-15" parent="QiWSNsGMa9dIWaTv_Qcn-8" source="QiWSNsGMa9dIWaTv_Qcn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-175" y="995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-19" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-3" parent="QiWSNsGMa9dIWaTv_Qcn-8" source="2kuZuHRCZG_ZfU6OxSht-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1030" />
+              <mxPoint x="170" y="1055" />
+            </Array>
+            <mxPoint x="155" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-21" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;EnterCopyOrMoving&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="1500" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-22" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-21" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="1480" />
+              <mxPoint x="175" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-28" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;TickCopyOrMoving&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-8">
+          <mxGeometry x="140" y="1590" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-10" value="location.version 本地版本号信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;entryPerimeter=0;" parent="1" source="xy1dMGJrIOf6ou0YAkFt-26" target="82q8I6zDC6qW-jJnLRhs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="605" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-14" value="PreDownloadApply单例" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" source="QiWSNsGMa9dIWaTv_Qcn-9" parent="1" target="xy1dMGJrIOf6ou0YAkFt-26">
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-14" value="PreDownloadApply实例" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="82q8I6zDC6qW-jJnLRhs-2" target="xy1dMGJrIOf6ou0YAkFt-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="745" as="targetPoint" />
             <mxPoint x="550" y="745" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-17" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="770" y="50" width="100" height="1000" as="geometry" />
+        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-17" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c9a26d;&quot;&gt;TGPAPreDownloadApply&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="50" width="190" height="3020" as="geometry" />
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="QiWSNsGMa9dIWaTv_Qcn-18" parent="1" source="QiWSNsGMa9dIWaTv_Qcn-15">
-          <mxGeometry x="0.0008" relative="1" as="geometry">
-            <mxPoint x="1270" y="795" as="sourcePoint" />
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;CreateEarlyPatchInstance&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-17">
+          <mxGeometry x="90" y="550" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetPreDownloadRootDir&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-17">
+          <mxGeometry x="100" y="570" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-6" value="本地版本号" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="82q8I6zDC6qW-jJnLRhs-5" parent="QiWSNsGMa9dIWaTv_Qcn-17" source="82q8I6zDC6qW-jJnLRhs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="555" />
+              <mxPoint x="135" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-8" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetPreDownloadPakFileList&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-17">
+          <mxGeometry x="100" y="650" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-9" value="预下载目录" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="82q8I6zDC6qW-jJnLRhs-8" parent="QiWSNsGMa9dIWaTv_Qcn-17" source="82q8I6zDC6qW-jJnLRhs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="640" />
+              <mxPoint x="135" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-14" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetEarlyPatchPakFileList&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QiWSNsGMa9dIWaTv_Qcn-17">
+          <mxGeometry x="100" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-15" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="82q8I6zDC6qW-jJnLRhs-14" parent="QiWSNsGMa9dIWaTv_Qcn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="699.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="700" />
+              <mxPoint x="135" y="720" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" source="QiWSNsGMa9dIWaTv_Qcn-18" parent="1" target="QiWSNsGMa9dIWaTv_Qcn-15">
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-1" value="将预下载目录下的资源移到{downloadpath}下载目录下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="340" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-7" value="获取本地预下载目录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-10" value="从预下载目录下的VersionJson获取&lt;div&gt;预下载资源的文件目录和md5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="680" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-3" value="预下载目录下的文件信息和最新的文件信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="QiWSNsGMa9dIWaTv_Qcn-9" parent="1" source="82q8I6zDC6qW-jJnLRhs-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1270" y="865" as="targetPoint" />
+            <mxPoint x="990" y="950" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-21" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="740" width="220" height="90" as="geometry" />
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-4" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;PreDownloadApply实例&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" source="QiWSNsGMa9dIWaTv_Qcn-9" parent="1" target="82q8I6zDC6qW-jJnLRhs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1015" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QiWSNsGMa9dIWaTv_Qcn-22" value="创建移动预下载目录中文件到&lt;div&gt;正式目录下的任务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="750" width="180" height="40" as="geometry" />
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-18" value="创建&lt;span style=&quot;font-size: 11px;&quot;&gt;PreDownloadApply实例&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;用于将预下载目录下的文件&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;移到downloadpath目录下&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="733" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6n-Re6P7Yz8Erpbc0OGW-1" value="创建&lt;span style=&quot;font-size: 11px;&quot;&gt;PreDownloadApply实例&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="920" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JN5cIUua4xNDYKDP3sKf-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" source="xy1dMGJrIOf6ou0YAkFt-22" parent="1" target="2kuZuHRCZG_ZfU6OxSht-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-715" y="780" as="targetPoint" />
+            <mxPoint x="-714.9999999999995" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JN5cIUua4xNDYKDP3sKf-4" value="Update每帧执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="JN5cIUua4xNDYKDP3sKf-1" target="2kuZuHRCZG_ZfU6OxSht-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="1462" as="sourcePoint" />
+            <mxPoint x="710" y="1462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-6" value="&lt;div&gt;TaskState.Init阶段&lt;/div&gt;判断预下载文件信息和最新文件信息&lt;div&gt;是否为空&lt;/div&gt;&lt;div&gt;并且md5是否相同&lt;/div&gt;&lt;div&gt;失败了就将任务状态设置为&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;TaskState.Error&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1080" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-8" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-7" parent="1" source="2kuZuHRCZG_ZfU6OxSht-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="1487" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-10" value="TaskState.MD5Checking阶段&lt;div&gt;创建UMoeMD5Helper.CheckMD5任务&lt;/div&gt;&lt;div&gt;直接扫描预下载文件获取MD5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82q8I6zDC6qW-jJnLRhs-16" value="从TFileList/BasePakListFile中&lt;div&gt;获取最新的文件信息&lt;/div&gt;&lt;div&gt;包括文件目录和md5&lt;/div&gt;&lt;div&gt;其中文件如果需要下载&lt;/div&gt;&lt;div&gt;直接下载在{downloadPath}目录下&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="740" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-12" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-11" parent="1" source="2kuZuHRCZG_ZfU6OxSht-1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="1330" y="1547" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-20" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;通过获取文件MD5的任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（这个任务应该是直接在创建的那一帧完成）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;获取预下载文件的MD5后判断其与&lt;/div&gt;&lt;div&gt;最新MD5是否相同&lt;/div&gt;&lt;div&gt;失败了就将任务状态设置为&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;TaskState.Error&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1480" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-23" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;UMoePreDownloadSubsystem&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2420" y="50" width="220" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-25" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;CopyFile&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2kuZuHRCZG_ZfU6OxSht-23">
+          <mxGeometry x="105" y="1510" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-31" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetTaskState&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2kuZuHRCZG_ZfU6OxSht-23">
+          <mxGeometry x="105" y="1640" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-24" value="创建移动预下载文件到&lt;div&gt;{downloadpath}下载目录下&lt;/div&gt;&lt;div&gt;虽然留有复制的接口&lt;/div&gt;&lt;div&gt;但现在全都是用的移动&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1540" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-26" value="预下载目录文件，{downloadpath}下载目录文件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-25" parent="1">
+          <mxGeometry x="0.0002" relative="1" as="geometry">
+            <mxPoint x="1411" y="1570" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-28" parent="1" source="2kuZuHRCZG_ZfU6OxSht-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="1645" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-32" value="移动文件的任务id" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-31" parent="1" source="2kuZuHRCZG_ZfU6OxSht-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2455" y="1695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-34" value="返回文件的任务id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="2kuZuHRCZG_ZfU6OxSht-25" target="2kuZuHRCZG_ZfU6OxSht-21">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
+            <mxPoint x="1990" y="1720" as="sourcePoint" />
+            <mxPoint x="1910" y="1720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-35" value="创建移动文件的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2525" y="1558" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-36" value="返回任务状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.957;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2kuZuHRCZG_ZfU6OxSht-31" target="2kuZuHRCZG_ZfU6OxSht-28">
+          <mxGeometry x="0.0007" relative="1" as="geometry">
+            <mxPoint x="1960" y="1910" as="sourcePoint" />
+            <mxPoint x="1880" y="1910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-37" value="检查文件移动任务状态&lt;div&gt;如果完成了&lt;/div&gt;&lt;div&gt;就把任务状态设为&lt;/div&gt;&lt;div&gt;TaskState.Finished&lt;/div&gt;&lt;div&gt;失败了就将任务状态设置为&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TaskState.Error&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="1664" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-41" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-40" parent="1" source="2kuZuHRCZG_ZfU6OxSht-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="1685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-43" value="推动预下载文件移动任务的进行&lt;div&gt;并在成功后调用&lt;/div&gt;&lt;div&gt;VersionUpdateManager中的回调&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1483" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-44" value="将移动成功的文件及其MD5&lt;div&gt;存入&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;localResList&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;pakList字典&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="1684" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2kuZuHRCZG_ZfU6OxSht-45" value="Update" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1320" width="3050" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -158,22 +377,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hgbdAM3A5GrCDMGgUIyw-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;VersionUpdateManager&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="hgbdAM3A5GrCDMGgUIyw-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;VersionUpdateManager&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="100" y="70" width="190" height="1010" as="geometry" />
         </mxCell>
-        <mxCell id="hgbdAM3A5GrCDMGgUIyw-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;UpdatePreDownloadAppResCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hgbdAM3A5GrCDMGgUIyw-1">
+        <mxCell id="hgbdAM3A5GrCDMGgUIyw-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;UpdatePreDownloadAppResCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="hgbdAM3A5GrCDMGgUIyw-1" vertex="1">
           <mxGeometry x="90" y="160" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hgbdAM3A5GrCDMGgUIyw-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="hgbdAM3A5GrCDMGgUIyw-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hgbdAM3A5GrCDMGgUIyw-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" source="hgbdAM3A5GrCDMGgUIyw-3" parent="1" target="hgbdAM3A5GrCDMGgUIyw-2">
+        <mxCell id="hgbdAM3A5GrCDMGgUIyw-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="hgbdAM3A5GrCDMGgUIyw-3" target="hgbdAM3A5GrCDMGgUIyw-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="15" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgbdAM3A5GrCDMGgUIyw-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;color:#bdbdbd;&quot;&gt;Puffer_PreDownloadCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="hgbdAM3A5GrCDMGgUIyw-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;UpdateStage&lt;/span&gt;.&lt;span style=&quot;color:#bdbdbd;&quot;&gt;Puffer_PreDownloadCheck&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="160" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYvpnMXa02L__IFBmwzF-1" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApply&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="140" height="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="kYvpnMXa02L__IFBmwzF-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Tick&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="kYvpnMXa02L__IFBmwzF-1">
+          <mxGeometry x="65" y="160" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kYvpnMXa02L__IFBmwzF-4" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="kYvpnMXa02L__IFBmwzF-3" parent="1" source="hgbdAM3A5GrCDMGgUIyw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP427wic0_2q2X0-0YYw-1" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;PreDownloadApplyTask&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="70" width="290" height="1290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
