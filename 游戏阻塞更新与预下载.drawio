@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.6" pages="3">
   <diagram name="puffer阻塞更新时序图——移动预下载目录文件到下载目录" id="0s5m7xCLdTFkOoqI4KA0">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1567" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,7 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-6" value="&lt;div&gt;TaskState.Init阶段&lt;/div&gt;判断预下载文件信息和最新文件信息&lt;div&gt;是否为空&lt;/div&gt;&lt;div&gt;并且md5是否相同&lt;/div&gt;&lt;div&gt;失败了就将任务状态设置为&lt;span style=&quot;&quot;&gt;TaskState.Error&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1415" y="1080" width="250" height="90" as="geometry" />
+          <mxGeometry x="1430" y="1080" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-8" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-7" parent="1" source="2kuZuHRCZG_ZfU6OxSht-1">
           <mxGeometry relative="1" as="geometry">
@@ -293,7 +293,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-10" value="TaskState.MD5Checking阶段&lt;div&gt;创建UMoeMD5Helper.CheckMD5任务&lt;/div&gt;&lt;div&gt;直接扫描预下载文件获取MD5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="1420" width="230" height="60" as="geometry" />
+          <mxGeometry x="1415" y="1390" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="82q8I6zDC6qW-jJnLRhs-16" value="从TFileList/BasePakListFile中&lt;div&gt;获取最新的文件信息&lt;/div&gt;&lt;div&gt;包括文件目录和md5&lt;/div&gt;&lt;div&gt;其中文件如果需要下载&lt;/div&gt;&lt;div&gt;直接下载在{downloadPath}目录下&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="890" y="740" width="200" height="90" as="geometry" />
@@ -305,7 +305,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-20" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;通过获取文件MD5的任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;（这个任务应该是直接在创建的那一帧完成）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;获取预下载文件的MD5后判断其与&lt;/div&gt;&lt;div&gt;最新MD5是否相同&lt;/div&gt;&lt;div&gt;失败了就将任务状态设置为&lt;span style=&quot;&quot;&gt;TaskState.Error&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1480" width="260" height="90" as="geometry" />
+          <mxGeometry x="1470" y="1468" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-23" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;UMoePreDownloadSubsystem&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2420" y="50" width="220" height="1840" as="geometry" />
@@ -317,7 +317,7 @@
           <mxGeometry x="105" y="1640" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-24" value="创建移动预下载文件到&lt;div&gt;{downloadpath}下载目录下&lt;/div&gt;&lt;div&gt;虽然留有复制的接口&lt;/div&gt;&lt;div&gt;但现在全都是用的移动&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1540" width="170" height="70" as="geometry" />
+          <mxGeometry x="1170" y="1543" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2kuZuHRCZG_ZfU6OxSht-26" value="预下载目录文件，{downloadpath}下载目录文件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="2kuZuHRCZG_ZfU6OxSht-25" parent="1">
           <mxGeometry x="0.0002" relative="1" as="geometry">
@@ -373,7 +373,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t5pxnd0J-U_7G_OdQXuQ" name="puffer阻塞更新时序图——下载、合并">
-    <mxGraphModel dx="3417" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3047" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -591,7 +591,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BRBzwG-yKZk1aBjBZde9-6" value="不断刷新合并任务&lt;div&gt;当任务合并成功后，将合并成功的文件移到&lt;/div&gt;&lt;div&gt;downloadpath目录&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1193" width="250" height="60" as="geometry" />
+          <mxGeometry x="540.38" y="1193" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRBzwG-yKZk1aBjBZde9-8" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" edge="1" target="BRBzwG-yKZk1aBjBZde9-7" parent="1" source="VOhQCCYtyDYo7IcgrTqE-20">
           <mxGeometry relative="1" as="geometry">
@@ -620,6 +620,12 @@
         </mxCell>
         <mxCell id="BRBzwG-yKZk1aBjBZde9-22" value="在&lt;font&gt;当前合并任务小于2个时&lt;/font&gt;取出一个需要合并的任务放入合并任务列表&lt;div&gt;并且在合并完所有pak后删除存放diff文件的diff目录&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-220" y="1903" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdW00pYujfFEFZdyfnKo-1" value="边下载，边合并" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="788" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npcRe-aJYPDc4X6k222E-4" value="&lt;div style=&quot;font-size: medium; text-align: start; text-wrap-mode: wrap;&quot; data-hash=&quot;4a54e7d210ace0ba7d81d3fddee7e65d&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start; text-wrap-mode: wrap;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="1343" width="20" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
