@@ -2147,7 +2147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l8ZFKXvzzTo3-JdAaZse" name="导表工具界面UIUML图">
-    <mxGraphModel dx="4411" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4243" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2246,6 +2246,12 @@
         </mxCell>
         <mxCell id="oEXFKHc1QVUwgiRSRbbC-9" value="tree的排序等主体方法目前不做隔离" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1420" y="530" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jz972tjfT7wudzJ8l--z-1" value="下拉框需要考虑的因素：&lt;div&gt;下拉框的选项有复选框和按钮两种&lt;/div&gt;&lt;div&gt;如果是按钮，就直接触发即可&lt;/div&gt;&lt;div&gt;但如果是复选框&lt;/div&gt;&lt;div&gt;需要考虑的有以下几点：&lt;/div&gt;&lt;div&gt;1、选中某个选项时需要模拟复选框选中的场景，所以需要修改字符串&lt;/div&gt;&lt;div&gt;在修改字符串的时候，下拉框是根据这是下拉框的第多少个元素修改的&lt;/div&gt;&lt;div&gt;所以需要存储下拉框每个选项的name与index的索引&lt;/div&gt;&lt;div&gt;2、由于下拉框是可以保存初始值的，所以还需要建立name与保存初始值的map中key的索引&lt;/div&gt;&lt;div&gt;3、由于下拉框有多种不同的需求，所以支持过滤配置中下拉框的信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="455" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jz972tjfT7wudzJ8l--z-2" value="module中关于下拉框及存储用于喜好信息的现状&lt;div&gt;module中现在存储的信息有点太多了&lt;/div&gt;&lt;div&gt;具体有哪些喜好信息都直接放在了里面进行初始化&lt;/div&gt;&lt;div&gt;而且修改时也是直接根据复选框当前的选择进行修改&lt;/div&gt;&lt;div&gt;修改目标：&lt;/div&gt;&lt;div&gt;重新新建一个字典，用于存储当前用户喜好，&lt;/div&gt;&lt;div&gt;无论是复选框还是下拉框或者按钮等，修改的都这个字典&lt;/div&gt;&lt;div&gt;不再任何信息与某一种UI进行强绑定&lt;/div&gt;&lt;div&gt;并且提供更新最新用户信息的接口&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="635" width="320" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
