@@ -4982,7 +4982,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cBkPm_E8ygLHdWQAjETH" name="导表工具重构时序图——导表过程前置步骤">
-    <mxGraphModel dx="1158" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1930" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5314,6 +5314,9 @@
         </mxCell>
         <mxCell id="KAw4kuj0Ro4FO_RfxvCM-22" value="执行该stage的事件&lt;div&gt;其中主仓库的相关事件一定会执行&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1950" y="1125" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KAw4kuj0Ro4FO_RfxvCM-23" value="一个父类，具体怎么执行还需要看&lt;div&gt;具体的派生类&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="53" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
