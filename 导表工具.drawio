@@ -4979,7 +4979,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EHOLri29dYWzgqcMq-F_" name="导表工具重构时序图——Plugin的注册与调用">
-    <mxGraphModel dx="4879" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
