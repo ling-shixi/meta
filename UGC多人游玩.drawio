@@ -1,9 +1,348 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="tAL-gFkC3mvr05Y5MJvQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2026" dy="-23" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Unt-MRkeQMosB_UhamQE-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2192" width="2380" height="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-3" target="Unt-MRkeQMosB_UhamQE-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-3" value="Model初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-35" target="Unt-MRkeQMosB_UhamQE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1422" y="2352" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-6" target="Unt-MRkeQMosB_UhamQE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-6" value="下载dat列表" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1362" y="2452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-6" target="Unt-MRkeQMosB_UhamQE-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="2482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-8" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Game流程初始化&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2682" width="440" height="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-38" target="Unt-MRkeQMosB_UhamQE-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2642" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-10" value="解析dat列表&lt;div&gt;解析Maindat地图数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2702" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-11" value="多人Game创建" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2942" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-13" target="Unt-MRkeQMosB_UhamQE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-13" value="解析房主存档关卡" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2852" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-14" value="获取存档数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2772" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-90" target="Unt-MRkeQMosB_UhamQE-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="2482" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-17" target="Unt-MRkeQMosB_UhamQE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-17" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;DS&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-18" value="存档数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1856" y="2772" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-14" target="Unt-MRkeQMosB_UhamQE-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="2792" as="sourcePoint" />
+            <mxPoint x="1070" y="2792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-20" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-19">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="41" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-22" target="Unt-MRkeQMosB_UhamQE-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-22" value="CreateGameSession" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1776" y="2452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-22" target="Unt-MRkeQMosB_UhamQE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1471" y="2482" as="sourcePoint" />
+            <mxPoint x="1571" y="2482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-24" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-23">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-25" value="StartGameSession" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1362" y="2582" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-25" target="Unt-MRkeQMosB_UhamQE-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="2622" as="sourcePoint" />
+            <mxPoint x="880" y="2612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-27" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-26">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-28" value="ActiveGameSession" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-29" value="CreateGameSessionResult" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1322" y="3022" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-28" target="Unt-MRkeQMosB_UhamQE-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="3051.5" as="sourcePoint" />
+            <mxPoint x="1140" y="3052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-31" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-30">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-32" value="存档数据返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1856" y="2852" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-32" target="Unt-MRkeQMosB_UhamQE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="2891.5" as="sourcePoint" />
+            <mxPoint x="1200" y="2891.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-34" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-33">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="41" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-35" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;DSA&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1362" y="2282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-37" target="Unt-MRkeQMosB_UhamQE-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-37" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;GameServer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1776" y="2282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-38" value="等待StartGameSession" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2572" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-39" value="等待DS启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1776" y="3012" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-29" target="Unt-MRkeQMosB_UhamQE-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1516" y="3051.5" as="sourcePoint" />
+            <mxPoint x="1571" y="3052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-41" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-40">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-43" target="Unt-MRkeQMosB_UhamQE-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-43" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Client&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="2282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-45" target="Unt-MRkeQMosB_UhamQE-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-45" value="下载dat列表" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="2452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-46" value="dat" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2365" y="2552" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-48" target="Unt-MRkeQMosB_UhamQE-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-48" value="COS" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="2652" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-50" target="Unt-MRkeQMosB_UhamQE-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="3012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-50" value="进入UGCLevelScene" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="2762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-51" value="dat数据反序列化" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-52" value="局内模块依赖dat&lt;div&gt;部分加载&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3192" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-53" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;局内连接&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2197.58" y="3012" width="214" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-66" target="Unt-MRkeQMosB_UhamQE-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2304.58" y="3421.9980645161286" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-79" target="Unt-MRkeQMosB_UhamQE-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-56" value="加载dat数据" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3602" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-58" target="Unt-MRkeQMosB_UhamQE-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-58" value="等待关卡数据同步" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3454.6606451612897" width="120" height="94.19354838709678" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-60" target="Unt-MRkeQMosB_UhamQE-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-60" value="局内模块数据初始化" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3812" width="120" height="58.31" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-62" target="Unt-MRkeQMosB_UhamQE-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-62" value="dat反序列化" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3052" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-63" value="公共模块数据初始化" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-65" target="Unt-MRkeQMosB_UhamQE-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-65" value="等待DS启动" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3222" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-66" value="等待DS连接" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3332" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-39" target="Unt-MRkeQMosB_UhamQE-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="3051.41" as="sourcePoint" />
+            <mxPoint x="2126.0000000000346" y="3052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-68" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-67">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-11" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-84" target="Unt-MRkeQMosB_UhamQE-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="3452" as="sourcePoint" />
+            <mxPoint x="1502" y="3452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-70" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-69">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-71" value="属性同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Unt-MRkeQMosB_UhamQE-69">
+          <mxGeometry x="0.3041" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-72" value="加载完成上报" style="whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="3932" width="120" height="58.31" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-72" target="Unt-MRkeQMosB_UhamQE-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2054" y="3820.66" as="sourcePoint" />
+            <mxPoint x="870" y="3743.6900000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-74" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-73">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-75" value="RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Unt-MRkeQMosB_UhamQE-73">
+          <mxGeometry x="-0.2201" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-77" target="Unt-MRkeQMosB_UhamQE-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-77" value="等待玩家加载完成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3742" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Unt-MRkeQMosB_UhamQE-56" target="Unt-MRkeQMosB_UhamQE-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="3662" as="sourcePoint" />
+            <mxPoint x="2305" y="3812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-79" value="等待关卡加载完成" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2244.58" y="3687.00064516129" width="120" height="94.19354838709678" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-80" value="开始游戏" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3862" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-81" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="710" y="3292" width="390" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-82" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RootGame加载关卡&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-81">
+          <mxGeometry width="230" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Unt-MRkeQMosB_UhamQE-81" source="Unt-MRkeQMosB_UhamQE-84" target="Unt-MRkeQMosB_UhamQE-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-84" value="设置ChildGameInfo&lt;div&gt;关卡数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-81">
+          <mxGeometry x="50" y="58" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Unt-MRkeQMosB_UhamQE-81" source="Unt-MRkeQMosB_UhamQE-86" target="Unt-MRkeQMosB_UhamQE-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-86" value="加载默认初始场景" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-81">
+          <mxGeometry x="50" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Unt-MRkeQMosB_UhamQE-81" source="Unt-MRkeQMosB_UhamQE-88" target="Unt-MRkeQMosB_UhamQE-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-88" value="局内模块依赖关卡数据部分加载" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-81">
+          <mxGeometry x="50" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-89" value="DS加载完成事件" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Unt-MRkeQMosB_UhamQE-81">
+          <mxGeometry x="50" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-90" value="dat" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2452" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Unt-MRkeQMosB_UhamQE-91" value="&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 36px;&quot;&gt;多人DS连接&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2222" width="320" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
