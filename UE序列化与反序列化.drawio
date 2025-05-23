@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6" pages="5">
   <diagram name="UObject的反序列化时序图" id="ty9AjxiSXVpi8jd9Yawi">
     <mxGraphModel dx="2836" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,8 +256,42 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CAczI8A5wFdw4gQ_MewH" name="UObject的序列化与反序列化时序图">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="JNPiS6L6-DPTeW65StrT" name="UObject的序列化时序图">
+    <mxGraphModel dx="978" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;UPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="100" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-2" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Save&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zBIUrqGnBbBKoTRaiU36-1">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-3" value="InOuter" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="zBIUrqGnBbBKoTRaiU36-2" parent="zBIUrqGnBbBKoTRaiU36-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="85" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#bdbdbd;&quot;&gt;PackageExportTagger&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="140" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;TagPackageExports&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zBIUrqGnBbBKoTRaiU36-4">
+          <mxGeometry x="65" y="90" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zBIUrqGnBbBKoTRaiU36-8" value="FArchSaveTagExports" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=0.5;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="zBIUrqGnBbBKoTRaiU36-7" parent="1" source="zBIUrqGnBbBKoTRaiU36-2">
+          <mxGeometry x="0.0021" relative="1" as="geometry">
+            <mxPoint x="220" y="155" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJGVRh9vTmIgOqLW7vcG-1" value="静态函数，&lt;div&gt;序列化InOuter：Package中&lt;/div&gt;&lt;div&gt;内容&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="153" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CAczI8A5wFdw4gQ_MewH" name="UObject反序列化UML">
+    <mxGraphModel dx="1493" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +308,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tb65GI6qtaV07dPVR0Jo" name="FArchive及其子类">
-    <mxGraphModel dx="1493" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,7 +319,7 @@
           <mxGeometry x="440" y="370" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-4" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;TMemoryWriterBase&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="800" y="330" width="190" height="140" as="geometry" />
+          <mxGeometry x="790" y="200" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="SeWNAzoTiZHXDxgDX6O6-2" target="SeWNAzoTiZHXDxgDX6O6-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -300,40 +334,69 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-7" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;FMemoryWriter&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="260" width="190" height="140" as="geometry" />
+          <mxGeometry x="1200" y="130" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.003;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SeWNAzoTiZHXDxgDX6O6-7" target="SeWNAzoTiZHXDxgDX6O6-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1190" y="390" as="sourcePoint" />
-            <mxPoint x="1350" y="390" as="targetPoint" />
+            <mxPoint x="1180" y="260" as="sourcePoint" />
+            <mxPoint x="1340" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-9" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;TBufferArchive&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="220" width="190" height="140" as="geometry" />
+          <mxGeometry x="1520" y="90" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1.018;entryY=0.548;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SeWNAzoTiZHXDxgDX6O6-9" target="SeWNAzoTiZHXDxgDX6O6-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1320" y="350" as="sourcePoint" />
-            <mxPoint x="1480" y="350" as="targetPoint" />
+            <mxPoint x="1310" y="220" as="sourcePoint" />
+            <mxPoint x="1470" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-11" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); line-height: 90%;&quot;&gt;&lt;pre style=&quot;text-align: center; line-height: 90%;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;FBufferArchive&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: center; line-height: 90%;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;可以直接调用来将内容&lt;/font&gt;序列化到文件中&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="130" width="320" height="210" as="geometry" />
+          <mxGeometry x="1810" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SeWNAzoTiZHXDxgDX6O6-11" target="SeWNAzoTiZHXDxgDX6O6-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1650" y="280" as="sourcePoint" />
-            <mxPoint x="1810" y="280" as="targetPoint" />
+            <mxPoint x="1640" y="150" as="sourcePoint" />
+            <mxPoint x="1800" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-13" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;FMemoryReader&lt;/pre&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;读取二进制文件并进行解析&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="800" y="585" width="250" height="175" as="geometry" />
+          <mxGeometry x="860" y="390" width="250" height="175" as="geometry" />
         </mxCell>
         <mxCell id="SeWNAzoTiZHXDxgDX6O6-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.023;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SeWNAzoTiZHXDxgDX6O6-13" target="SeWNAzoTiZHXDxgDX6O6-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="860" y="570" as="sourcePoint" />
             <mxPoint x="1020" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i6HAD2E3Mx-y_IM3SZBi-1" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;FArchiveUObject&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="i6HAD2E3Mx-y_IM3SZBi-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6HAD2E3Mx-y_IM3SZBi-1" target="SeWNAzoTiZHXDxgDX6O6-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="710" as="sourcePoint" />
+            <mxPoint x="700" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6HAD2E3Mx-y_IM3SZBi-3" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;color: light-dark(rgb(208, 208, 208), rgb(58, 58, 58)); text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;FArchiveSaveTagExports&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#c191ff&quot;&gt;写入uasset的package对象&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;Outer&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;UPackage&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 正在保存的包，只有这个包中的对象才会被标记为需要序列化&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;private：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;TaggedObjects&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TArray&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;UObject&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;LoadContext：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TRefCountPtr&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(225, 191, 255);&quot;&gt;FUObjectSerializeContext&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="790" y="720" width="530" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="i6HAD2E3Mx-y_IM3SZBi-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6HAD2E3Mx-y_IM3SZBi-3" target="i6HAD2E3Mx-y_IM3SZBi-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="820" as="sourcePoint" />
+            <mxPoint x="670" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nvHfwMD2ZPZMC9bYow8E" name="UObject反序列化UML">
+    <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1iQ-n_O88hpD-CAY43XV-1" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255);&quot;&gt;FPackageExportTagger&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255);&quot;&gt;用于序列化的一个中间类&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;Base&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;UObject&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;TopLevelFlags&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;EObjectFlags&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;Package：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;UPackage&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;TargetPlatform：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;ITargetPlatform&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="380" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
