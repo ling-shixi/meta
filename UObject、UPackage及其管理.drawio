@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.8">
-  <diagram name="第 1 页" id="tuYPuXULO6N7bnm9K-8k">
-    <mxGraphModel>
+  <diagram name="根据Outer（UPackage）获取UObject" id="tuYPuXULO6N7bnm9K-8k">
+    <mxGraphModel dx="675" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#c191ff;&quot;&gt;UWorld&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="100" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="roe4WX-xHVsZ3pEHwJRb-1">
+          <mxGeometry x="45" y="90" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-3" value="UPackage" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="roe4WX-xHVsZ3pEHwJRb-2" parent="roe4WX-xHVsZ3pEHwJRb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="95" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-4" value="UObjectHash" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="100" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-5" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;GetObjectsWithPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="roe4WX-xHVsZ3pEHwJRb-4">
+          <mxGeometry x="45" y="90" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-12" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ForEachObjectWithPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="roe4WX-xHVsZ3pEHwJRb-4">
+          <mxGeometry x="55" y="120" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-13" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="roe4WX-xHVsZ3pEHwJRb-12" parent="roe4WX-xHVsZ3pEHwJRb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-6" value="package，Tarry&amp;lt;UObject*&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="roe4WX-xHVsZ3pEHwJRb-5" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="180" y="145" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roe4WX-xHVsZ3pEHwJRb-11" value="Tarry&amp;lt;UObject*&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" source="roe4WX-xHVsZ3pEHwJRb-5" parent="1" target="roe4WX-xHVsZ3pEHwJRb-1">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="220" y="225" as="targetPoint" />
+            <mxPoint x="290" y="225" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="250" y="460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
