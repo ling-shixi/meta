@@ -257,6 +257,9 @@
         <mxCell id="vTSXOp-pA9L8EZH3dyYg-1" value="此处可能调用另一个函数，使用失效系统更新小部件&lt;div&gt;这次采用完整更新版本&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="843" width="300" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4KKVM4Lg4OVB7iKJ_kh4-1" value="调用渲染线程更新rendertarget" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="878" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
