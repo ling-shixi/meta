@@ -499,7 +499,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7vT-8G-u55oKV66kfo6v" name="OnMouseButtonDown调用流程">
-    <mxGraphModel dx="789" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="902" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,6 +625,9 @@
             <mxPoint x="690" y="790" as="targetPoint" />
             <mxPoint x="755" y="790" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wPsYqnXPES1-npjOhzlC-36" value="传入不同widget" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="610" width="1480" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
