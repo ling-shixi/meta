@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5" pages="10">
   <diagram name="SWidget及其主要子类" id="HSy3ttUSezWagzPz5H4Y">
-    <mxGraphModel dx="1767" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1573" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,7 +530,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-Cw0EkSJXRXKl685q3xg" name="第 10 页">
-    <mxGraphModel dx="617" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,7 +625,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sbGSP4_KvaO9lny202c" name="UI渲染器工作时序图">
-    <mxGraphModel dx="862" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1279" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -659,7 +659,10 @@
             <mxPoint x="350" y="185" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S5Jw2viKxewtWeHoMtsL-14" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;DrawPrepass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;预布局&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="8iasSqjMsW1wAk37agvD-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="S5Jw2viKxewtWeHoMtsL-14" target="GdEyzwok-Le5Ae6mQb0z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5Jw2viKxewtWeHoMtsL-14" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;DrawPrepass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;预布局，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;即计算UI大小&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="530" y="190" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="S5Jw2viKxewtWeHoMtsL-15" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="S5Jw2viKxewtWeHoMtsL-14" edge="1">
@@ -714,7 +717,7 @@
           <mxGeometry x="590" y="140" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="GdEyzwok-Le5Ae6mQb0z-2" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;PrepassWindowAndChildren&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;对每个窗口进行预布局&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="670" y="205" width="10" height="80" as="geometry" />
+          <mxGeometry x="670" y="205" width="10" height="95" as="geometry" />
         </mxCell>
         <mxCell id="GdEyzwok-Le5Ae6mQb0z-3" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="GdEyzwok-Le5Ae6mQb0z-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -731,6 +734,58 @@
               <mxPoint x="715" y="729" />
               <mxPoint x="715" y="750" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="9Rg0zhjYKF-g0_u5U8us-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="9Rg0zhjYKF-g0_u5U8us-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-4" value="&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;SWidget&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1520" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;SlatePrepass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;窗口的预布局&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="9Rg0zhjYKF-g0_u5U8us-4">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-7" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Prepass_Internal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1710" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-8" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="9Rg0zhjYKF-g0_u5U8us-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1574" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-10" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Prepass_ChildLoop&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1900" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-11" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FChildren&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;* MyChildren&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="9Rg0zhjYKF-g0_u5U8us-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-13" value="遍历每个SWidget中的子节点" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="290" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-14" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;Prepass_Internal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2015" y="360" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-15" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="9Rg0zhjYKF-g0_u5U8us-10" target="9Rg0zhjYKF-g0_u5U8us-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="370" as="sourcePoint" />
+            <mxPoint x="1970" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhfE84a0FTgqHVH9SX17-1" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;CacheDesiredSize&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1790" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xhfE84a0FTgqHVH9SX17-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="xhfE84a0FTgqHVH9SX17-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="355" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
