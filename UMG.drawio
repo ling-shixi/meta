@@ -726,7 +726,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sbGSP4_KvaO9lny202c" name="UI渲染器工作时序图">
-    <mxGraphModel dx="617" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="597" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -923,13 +923,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-14" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;PaintSlowPath&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1880" y="680" width="10" height="80" as="geometry" />
+          <mxGeometry x="1880" y="540" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-15" value="否" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="nAUVd7wUhywcXN_exj-I-14" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1760" y="825" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1760" y="685" />
+              <mxPoint x="1760" y="545" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -978,6 +978,103 @@
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-4" value="maxLayerId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-EhPIAFp-KI91ijZVtGV-3">
           <mxGeometry x="-0.3459" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-5" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;Paint&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;继承于SWidget&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2058" y="540" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-6" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="545" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-7" value="&lt;span style=&quot;background-color: rgb(26, 26, 26); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;NewLayerId&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="-EhPIAFp-KI91ijZVtGV-5" parent="1" target="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="720" as="targetPoint" />
+            <mxPoint x="1960" y="829.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-9" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;CalculateCullingAndClippingRules裁剪计算&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2220" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="545" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-11" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="-EhPIAFp-KI91ijZVtGV-9" parent="1" target="-EhPIAFp-KI91ijZVtGV-5">
+          <mxGeometry x="0.0025" relative="1" as="geometry">
+            <mxPoint x="2070" y="615" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-12" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;FWidgetStyle&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;样式混合&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2220" y="590" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-13" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="595" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-14" value="&lt;span style=&quot;background-color: rgb(26, 26, 26); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;FWidgetStyle&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="-EhPIAFp-KI91ijZVtGV-12" parent="1" target="-EhPIAFp-KI91ijZVtGV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-15" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;ExecuteActiveTimers定时器&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2220" y="645" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="-EhPIAFp-KI91ijZVtGV-15" parent="1" target="-EhPIAFp-KI91ijZVtGV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-19" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); line-height: 16px;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;Tick&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2220" y="690" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-20" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="-EhPIAFp-KI91ijZVtGV-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="-EhPIAFp-KI91ijZVtGV-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-22" value="&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;FSlateWindowElementList&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2410" y="470" width="210" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-23" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;PushClip实施裁剪&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="-EhPIAFp-KI91ijZVtGV-22">
+          <mxGeometry x="100" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-24" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-23" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="745" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="-EhPIAFp-KI91ijZVtGV-23" parent="1" target="-EhPIAFp-KI91ijZVtGV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-26" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(26, 26, 26); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;OnPaint&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2220" y="785" width="10" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-27" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="-EhPIAFp-KI91ijZVtGV-26" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-28" value="&lt;span style=&quot;color: rgb(189, 189, 189); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;MaxLayer&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="-EhPIAFp-KI91ijZVtGV-26" parent="1" target="-EhPIAFp-KI91ijZVtGV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="860" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
