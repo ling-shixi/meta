@@ -792,7 +792,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sbGSP4_KvaO9lny202c" name="UI渲染器工作时序图">
-    <mxGraphModel dx="751" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3156" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -904,7 +904,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Rg0zhjYKF-g0_u5U8us-2" value="SlateApplication-&amp;gt;Slate不同像素显示器的全局缩放比例" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;labelBackgroundColor=none;fontColor=default;fontFamily=Helvetica;fontSize=12;" parent="1" target="9Rg0zhjYKF-g0_u5U8us-1" edge="1">
+        <mxCell id="9Rg0zhjYKF-g0_u5U8us-2" value="SlateApplication-&amp;gt;Slate不同像素显示器的全局缩放比例，即&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;DPI曲线中的缩放&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;labelBackgroundColor=none;fontColor=default;fontFamily=Helvetica;fontSize=12;" parent="1" target="9Rg0zhjYKF-g0_u5U8us-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="215" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -1222,7 +1222,7 @@
             <mxPoint x="2180" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7atEqDpzZV27nI-mHsr0-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(135, 195, 255); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;UUserInterfaceSettings&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(135, 195, 255); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;DPI曲线&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7atEqDpzZV27nI-mHsr0-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;UUserInterfaceSettings：&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;UDeveloperSettings&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;DPI曲线&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=default;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2970" y="340" width="400" height="120" as="geometry" />
         </mxCell>
       </root>
