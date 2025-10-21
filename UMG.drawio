@@ -792,7 +792,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sbGSP4_KvaO9lny202c" name="UI渲染器工作时序图">
-    <mxGraphModel dx="751" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,22 +982,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-10" value="是否进行慢速绘制" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1660" y="865" width="100" height="30" as="geometry" />
+          <mxGeometry x="1840" y="865" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-12" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="nAUVd7wUhywcXN_exj-I-10" edge="1" source="nAUVd7wUhywcXN_exj-I-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1560" y="824.44" as="sourcePoint" />
-            <mxPoint x="1630" y="824.44" as="targetPoint" />
+            <mxPoint x="1740" y="824.44" as="sourcePoint" />
+            <mxPoint x="1810" y="824.44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nAUVd7wUhywcXN_exj-I-14" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;PaintSlowPath&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="595" width="10" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="nAUVd7wUhywcXN_exj-I-15" value="否" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="nAUVd7wUhywcXN_exj-I-14" edge="1" source="nAUVd7wUhywcXN_exj-I-10">
+        <mxCell id="nAUVd7wUhywcXN_exj-I-15" value="否" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="jtR3XcIFtFtsoOWhmZOy-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1780" y="880" as="sourcePoint" />
+            <mxPoint x="1940" y="880" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1760" y="600" />
+              <mxPoint x="1940" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1007,13 +1004,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-19" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;PaintFastPath&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="945" width="10" height="80" as="geometry" />
+          <mxGeometry x="2057" y="1549" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nAUVd7wUhywcXN_exj-I-20" value="是" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="nAUVd7wUhywcXN_exj-I-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1760" y="880" as="sourcePoint" />
+            <mxPoint x="1940" y="880" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1760" y="950" />
+              <mxPoint x="1940" y="1554" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1022,15 +1019,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nAUVd7wUhywcXN_exj-I-6" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;PaintInvalidationRoot&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;继承于&lt;/span&gt;&lt;span&gt;FSlateInvalidationRoot类&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="740" width="10" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="nAUVd7wUhywcXN_exj-I-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1710" y="1015" />
+              <mxPoint x="1890" y="1620" />
             </Array>
-            <mxPoint x="1710" y="895" as="targetPoint" />
+            <mxPoint x="1890" y="895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-2" value="maxLayerId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="-EhPIAFp-KI91ijZVtGV-1" vertex="1" connectable="0">
@@ -1041,9 +1035,9 @@
         <mxCell id="-EhPIAFp-KI91ijZVtGV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="nAUVd7wUhywcXN_exj-I-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1710" y="850" />
+              <mxPoint x="1890" y="850" />
             </Array>
-            <mxPoint x="1710" y="865" as="targetPoint" />
+            <mxPoint x="1890" y="865" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-4" value="maxLayerId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="-EhPIAFp-KI91ijZVtGV-3" vertex="1" connectable="0">
@@ -1052,133 +1046,95 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-5" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;Paint&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;继承于SWidget&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2058" y="595" width="10" height="310" as="geometry" />
+          <mxGeometry x="2490" y="935" width="10" height="545" as="geometry" />
         </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-6" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1890" y="600" as="sourcePoint" />
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-6" value="绘制参数、窗口几何信息&lt;div&gt;裁剪边界、绘制元素列表（起始为空）、&lt;/div&gt;&lt;div&gt;起始层级、widget样式、父控件是否启用&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-5" edge="1" source="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry x="-0.0024" relative="1" as="geometry">
+            <mxPoint x="2070" y="675" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-7" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;NewLayerId&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-5" target="nAUVd7wUhywcXN_exj-I-14" edge="1">
+        <mxCell id="-EhPIAFp-KI91ijZVtGV-7" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;NewLayerId&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-5" target="nAUVd7wUhywcXN_exj-I-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1890" y="775" as="targetPoint" />
-            <mxPoint x="1960" y="884.9999999999998" as="sourcePoint" />
+            <mxPoint x="2070" y="850" as="targetPoint" />
+            <mxPoint x="2140" y="959.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-9" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;CalculateCullingAndClippingRules裁剪计算&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="595" width="10" height="40" as="geometry" />
+          <mxGeometry x="2652" y="935" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2070" y="600" as="sourcePoint" />
+            <mxPoint x="2502" y="940" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-EhPIAFp-KI91ijZVtGV-11" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-9" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
           <mxGeometry x="0.0025" relative="1" as="geometry">
-            <mxPoint x="2070" y="670" as="targetPoint" />
+            <mxPoint x="2502" y="1010" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-12" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;FWidgetStyle&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;样式混合&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="645" width="10" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-13" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="650" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-14" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;FWidgetStyle&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-12" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-15" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;ExecuteActiveTimers定时器&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="700" width="10" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="705" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-15" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="775" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-19" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;line-height: 16px;&quot;&gt;&lt;span&gt;Tick&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="745" width="10" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-20" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="-EhPIAFp-KI91ijZVtGV-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="750" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-EhPIAFp-KI91ijZVtGV-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="775" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rY00i4HRAhAk7OGIcGQ7-1" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;ArrangeChildren&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;获取子节点&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="785" width="10" height="60" as="geometry" />
+          <mxGeometry x="2712" y="1125" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rY00i4HRAhAk7OGIcGQ7-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="-EhPIAFp-KI91ijZVtGV-5" target="rY00i4HRAhAk7OGIcGQ7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2070" y="800" as="sourcePoint" />
+            <mxPoint x="2502" y="1140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rY00i4HRAhAk7OGIcGQ7-3" value="&lt;span&gt;FArrangedChildren&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="rY00i4HRAhAk7OGIcGQ7-1" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2070" y="870" as="targetPoint" />
+            <mxPoint x="2502" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rY00i4HRAhAk7OGIcGQ7-5" value="&lt;span&gt;FArrangedChildren&amp;amp;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="rY00i4HRAhAk7OGIcGQ7-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2290" y="790" as="sourcePoint" />
+            <mxPoint x="2722" y="1130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L0kun_n94gP2dqz5lLxu-1" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;Paint&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="855" width="10" height="50" as="geometry" />
+          <mxGeometry x="2672" y="1350" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="L0kun_n94gP2dqz5lLxu-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="L0kun_n94gP2dqz5lLxu-1" edge="1">
+        <mxCell id="L0kun_n94gP2dqz5lLxu-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="L0kun_n94gP2dqz5lLxu-1" edge="1" source="-EhPIAFp-KI91ijZVtGV-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="860" as="sourcePoint" />
+            <mxPoint x="2500" y="1200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L0kun_n94gP2dqz5lLxu-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="L0kun_n94gP2dqz5lLxu-1" target="-EhPIAFp-KI91ijZVtGV-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2068" y="930" as="targetPoint" />
+            <mxPoint x="2500" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rY00i4HRAhAk7OGIcGQ7-4" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;OnArrangeChildren&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2430" y="785" width="10" height="60" as="geometry" />
+          <mxGeometry x="2862" y="1125" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L0kun_n94gP2dqz5lLxu-4" value="LayoutUtils" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2540" y="600" width="100" height="300" as="geometry" />
+          <mxGeometry x="2972" y="940" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="L0kun_n94gP2dqz5lLxu-5" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;ArrangeSingleChild&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="L0kun_n94gP2dqz5lLxu-4" vertex="1">
           <mxGeometry x="45" y="185" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L0kun_n94gP2dqz5lLxu-6" value="&lt;span&gt;FArrangedChildren&amp;amp;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" target="L0kun_n94gP2dqz5lLxu-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2440" y="790" as="sourcePoint" />
+            <mxPoint x="2872" y="1130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vlf-ujMCUXEzOPdDmLUt-1" value="&lt;span&gt;FArrangedChildren&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="600" width="150" height="405" as="geometry" />
+          <mxGeometry x="3202" y="865" width="150" height="405" as="geometry" />
         </mxCell>
         <mxCell id="Vlf-ujMCUXEzOPdDmLUt-2" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;AddWidget&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="Vlf-ujMCUXEzOPdDmLUt-1" vertex="1">
-          <mxGeometry x="70" y="240" width="10" height="80" as="geometry" />
+          <mxGeometry x="70" y="315" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vlf-ujMCUXEzOPdDmLUt-3" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" source="L0kun_n94gP2dqz5lLxu-5" target="Vlf-ujMCUXEzOPdDmLUt-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2600" y="850" as="sourcePoint" />
+            <mxPoint x="3032" y="1190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oZfZNsYPE8DFsHx4HsZm-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;SWidget&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span&gt;PrepassLayoutScaleMultiplier&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;TOptional&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;nbsp; 布局缩放参数，用于DPI缩放&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;bNeedsPrepass：&lt;/span&gt;&lt;span&gt;uint8&amp;nbsp; 是否需要重新测量&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;PrepassLayoutScaleMultiplierValue&amp;nbsp; 预布局缩放参数&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;DesiredSize：&lt;/span&gt;&lt;span&gt;FVector2f&amp;nbsp; 计算布局阶段计算好的布局大小&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;ParentWidgetPtr:&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TWeakPtr&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;SWidget&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;nbsp; 父widget&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;PersistentState：&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FSlateWidgetPersistentState&amp;nbsp; 上次调用Paint时计算出来的状态信息&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(57, 204, 155); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;GetParentWidget&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TSharedPtr&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;SWidget&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;nbsp; 获取父widget指针&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38);&quot;&gt;GetAllChildren()：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FChildren&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 获取管理所有子widget的插槽&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;GetViewportSize():&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FDeprecateVector2DResult&amp;nbsp; 返回视口大小&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;GetWindowGeometryInWindow():&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FGeometry&amp;nbsp; 获取窗口空间内widget的几何形状&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="5686" y="62.5" width="876" height="245" as="geometry" />
+          <mxGeometry x="6648" y="82.5" width="876" height="245" as="geometry" />
         </mxCell>
         <mxCell id="oZfZNsYPE8DFsHx4HsZm-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FSlateApplication&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span&gt;Scale&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;float&amp;nbsp; 不同像素显示器的全局缩放比例&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="3480" y="270" width="300" height="90" as="geometry" />
+          <mxGeometry x="4442" y="290" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7atEqDpzZV27nI-mHsr0-1" value="&lt;div&gt;&lt;div&gt;&lt;span&gt;SetDesiredSize&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1990" y="360" width="10" height="160" as="geometry" />
@@ -1226,102 +1182,102 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7atEqDpzZV27nI-mHsr0-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;UUserInterfaceSettings：&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;UDeveloperSettings&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; text-align: left;&quot;&gt;DPI曲线&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=default;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3190" y="425" width="400" height="120" as="geometry" />
+          <mxGeometry x="4300" y="470" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;FDrawWindowArgs&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;窗口绘制参数&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;OutDrawBuffer&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;FSlateDrawBuffer&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;amp;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3378" y="750" width="530" height="180" as="geometry" />
+          <mxGeometry x="4340" y="770" width="530" height="180" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204); color: rgb(58, 58, 58); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 19.0667px; text-align: left;&quot;&gt;FSlateDrawBuffer：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FGCObject&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204); color: rgb(58, 58, 58); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 19.0667px; text-align: left;&quot;&gt;slate的绘制缓冲区&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;WindowElementLists&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;TArray&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;TSharedRef&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;FSlateWindowElementList&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;gt;&amp;nbsp; 窗口的元素列表&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;AddWindowElementList&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;TSharedRef&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;SWindow&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;ForWindow&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FSlateWindowElementList&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;amp;&amp;nbsp; 创建元素绘制列表窗口&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="4198" y="670" width="810" height="170" as="geometry" />
+          <mxGeometry x="5160" y="690" width="810" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Wr8JRcT3Rvb36VBtew1-5" target="8Wr8JRcT3Rvb36VBtew1-6">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4208" y="820" as="sourcePoint" />
-            <mxPoint x="4368" y="820" as="targetPoint" />
+            <mxPoint x="5170" y="840" as="sourcePoint" />
+            <mxPoint x="5330" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;FSlateWindowElementList：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FNoncopyable&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;顶层窗口及其绘制元素&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5178" y="745" width="480" height="130" as="geometry" />
+          <mxGeometry x="6140" y="765" width="480" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Wr8JRcT3Rvb36VBtew1-6" target="8Wr8JRcT3Rvb36VBtew1-8">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="5138" y="790" as="sourcePoint" />
-            <mxPoint x="5298" y="790" as="targetPoint" />
+            <mxPoint x="6100" y="810" as="sourcePoint" />
+            <mxPoint x="6260" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4050" y="2160" as="sourcePoint" />
-            <mxPoint x="4048" y="50" as="targetPoint" />
+            <mxPoint x="5012" y="2180" as="sourcePoint" />
+            <mxPoint x="5010" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-11" value="slate" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3940" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="4902" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-12" value="slateCore" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4100" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="5062" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;FPaintArgs&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;SWidget的Paint和OnPaint的渲染参数的传参&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5168" y="1399" width="610" height="150" as="geometry" />
+          <mxGeometry x="6130" y="1419" width="610" height="150" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;FSlateInvalidationContext&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); text-align: left;&quot;&gt;&lt;b&gt;失效根绘制上下文&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;WindowElementList&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;FSlateWindowElementList&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 收集FSlateDrawElement，批次由后续渲染器提交&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;WidgetStyle：&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FWidgetStyle&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;amp;&amp;nbsp; &amp;nbsp; 根样式&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;PaintArgs：&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FPaintArgs&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 时间、命中网格、窗口位置等上下文&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); background-color: rgb(38, 38, 38);&quot;&gt;LayoutScaleMultiplier：float&amp;nbsp; 布局缩放倍数&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); background-color: rgb(38, 38, 38);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233);&quot;&gt;C&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233);&quot;&gt;ulling&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233);&quot;&gt;Rect：FSlateRect&amp;nbsp; 本次绘制的裁剪矩形（窗口空间），用于剔除/裁剪，限制写入WindowElementList的可见范围&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="4170" y="990" width="710" height="220" as="geometry" />
+          <mxGeometry x="5132" y="1010" width="710" height="220" as="geometry" />
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Wr8JRcT3Rvb36VBtew1-18" target="8Wr8JRcT3Rvb36VBtew1-8">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4718" y="1030" as="sourcePoint" />
-            <mxPoint x="4878" y="1030" as="targetPoint" />
+            <mxPoint x="5680" y="1050" as="sourcePoint" />
+            <mxPoint x="5840" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Wr8JRcT3Rvb36VBtew1-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Wr8JRcT3Rvb36VBtew1-18" target="8Wr8JRcT3Rvb36VBtew1-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4718" y="1030" as="sourcePoint" />
-            <mxPoint x="4878" y="1030" as="targetPoint" />
+            <mxPoint x="5680" y="1050" as="sourcePoint" />
+            <mxPoint x="5840" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FWidgetStyle&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;b&gt;分层传播的小部件的外观信息&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ColorAndOpacityTint&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;FLinearColor  颜色和透明度&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ForegroundColor：&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;FLinearColor  前景色&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;SubduedForeground：&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;FLinearColor  减弱的前景色&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5158" y="1040" width="610" height="150" as="geometry" />
+          <mxGeometry x="6120" y="1060" width="610" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Wr8JRcT3Rvb36VBtew1-18" target="jtR3XcIFtFtsoOWhmZOy-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4968" y="1265" as="sourcePoint" />
-            <mxPoint x="5338" y="970" as="targetPoint" />
+            <mxPoint x="5930" y="1285" as="sourcePoint" />
+            <mxPoint x="6300" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;SWindow&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;b&gt;与平台无关的顶级窗口的表现形式&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;b&gt;即可以直接绘制的&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;NativeWindow&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TSharedPtr&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FGenericWindow&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;nbsp; 显示此窗口的本机窗口，平台层配置&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;存储大小&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;Size：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FDeprecateVector2DResult&amp;nbsp; 屏幕空间大小&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;ViewportSize：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FDeprecateVector2DResult&amp;nbsp; 视口大小，（0，0）表示与Size相同&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(57, 204, 155); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;GetDPIScaleFactor&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(108, 149, 235); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;float&amp;nbsp; 从平台层获取屏幕控件的DPI缩放系数&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="4100" y="260" width="850" height="270" as="geometry" />
+          <mxGeometry x="5062" y="280" width="850" height="270" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;SCompoundWidget&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5257" y="140" width="210" height="90" as="geometry" />
+          <mxGeometry x="6219" y="160" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtR3XcIFtFtsoOWhmZOy-3" target="jtR3XcIFtFtsoOWhmZOy-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4968" y="432.5" as="sourcePoint" />
-            <mxPoint x="5198" y="322.5" as="targetPoint" />
+            <mxPoint x="5930" y="452.5" as="sourcePoint" />
+            <mxPoint x="6160" y="342.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtR3XcIFtFtsoOWhmZOy-4" target="oZfZNsYPE8DFsHx4HsZm-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="5090" y="250" as="sourcePoint" />
-            <mxPoint x="5240" y="205" as="targetPoint" />
+            <mxPoint x="6052" y="270" as="sourcePoint" />
+            <mxPoint x="6202" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;FSlateInvalidationRoot&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;失效根&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(193, 145, 255); background-color: rgb(38, 38, 38);&quot;&gt;FSlateInvalidationWidgetList&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;TUniquePtr&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FSlateInvalidationWidgetList&lt;/span&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;&amp;gt;&amp;nbsp; 扁平化（用于快速遍历）widget列表&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;+&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11.7px;&quot;&gt;Cached&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11.7px;&quot;&gt;Element&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: var(--vscode-scrollbarSlider-background,#424242) var(--vscode-editor-background,#1e1e1e); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11.7px;&quot;&gt;Data：&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(225, 191, 255);&quot;&gt;FSlateCachedElementData&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 缓存的绘制元素数据&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;+ method(): Type&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5210" y="335" width="680" height="130" as="geometry" />
+          <mxGeometry x="6172" y="355" width="680" height="130" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtR3XcIFtFtsoOWhmZOy-3" target="jtR3XcIFtFtsoOWhmZOy-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="4968" y="432.5" as="sourcePoint" />
-            <mxPoint x="5118" y="362.5" as="targetPoint" />
+            <mxPoint x="5930" y="452.5" as="sourcePoint" />
+            <mxPoint x="6080" y="382.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateWidgetPersistentState&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;用于表示widget上次调用paint时计算出来的状态信息&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="6706" y="100" width="560" height="160" as="geometry" />
+          <mxGeometry x="7668" y="120" width="560" height="160" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oZfZNsYPE8DFsHx4HsZm-1" target="jtR3XcIFtFtsoOWhmZOy-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="6344" y="190" as="sourcePoint" />
-            <mxPoint x="6504" y="190" as="targetPoint" />
+            <mxPoint x="7306" y="210" as="sourcePoint" />
+            <mxPoint x="7466" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-11" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(208, 208, 208), rgb(58, 58, 58));&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;GetWindowGeometryInWindow&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007a50&quot;&gt;获取窗口本地空间下的大小&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
@@ -1339,15 +1295,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateLayoutTransform&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;&lt;b&gt;用于二维变换，先缩放，再平移&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;Scale&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: float&amp;nbsp; 缩放因子&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;Translation：&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;FVector2f  平移向量&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="4220" y="1399" width="440" height="160" as="geometry" />
+          <mxGeometry x="5182" y="1419" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FDeprecateVector2DResult：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FVector2f&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="5193" y="570" width="450" height="90" as="geometry" />
+          <mxGeometry x="6155" y="590" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-16" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtR3XcIFtFtsoOWhmZOy-3" target="jtR3XcIFtFtsoOWhmZOy-15">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="5210" y="510" as="sourcePoint" />
-            <mxPoint x="5370" y="510" as="targetPoint" />
+            <mxPoint x="6172" y="530" as="sourcePoint" />
+            <mxPoint x="6332" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-17" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); line-height: 90%;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 90%;&quot;&gt;GetClippingRectangleInWindow&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 90%;&quot;&gt;返回窗口控件的裁剪矩形&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -1370,6 +1326,77 @@
         <mxCell id="jtR3XcIFtFtsoOWhmZOy-21" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="jtR3XcIFtFtsoOWhmZOy-20" parent="1" source="iYBcBa4jrJQukU8Vokii-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1290" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-23" value="&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FSlateInvalidationRoot&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1610" y="470" width="245" height="635" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUVd7wUhywcXN_exj-I-6" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;PaintInvalidationRoot&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;继承于&lt;/span&gt;&lt;span&gt;FSlateInvalidationRoot类&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="jtR3XcIFtFtsoOWhmZOy-23" vertex="1">
+          <mxGeometry x="117.5" y="275" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateInvalidationResult&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;失效根绘制后的返回结果&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;ViewOffset&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204); color: rgb(122, 81, 175); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 19.0667px;&quot;&gt;FDeprecateVector2DResult&amp;nbsp; 绘制使用的视图偏移，包括窗口和桌面&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204); color: rgb(122, 81, 175); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 19.0667px;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;MaxLayerIdPainted：&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;int32&amp;nbsp; 本次绘制/缓存的最大层级id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(225, 191, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;bRepaintedWidgets：bool&amp;nbsp; 此次是否重绘了&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5222" y="1710" width="790" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-26" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); line-height: 100%;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 100%;&quot; face=&quot;Helvetica&quot;&gt;ClearAllFastPathData&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 100%;&quot; face=&quot;Helvetica&quot;&gt;清空所有缓存数据&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2060" y="550" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-27" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); line-height: 100%;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 100%;&quot; face=&quot;Helvetica&quot;&gt;BuildFastPathWidgetList&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 100%;&quot; face=&quot;Helvetica&quot;&gt;构建快速路径widget列表&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2060" y="610" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-28" value="否" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="jtR3XcIFtFtsoOWhmZOy-27" target="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1940" y="1030" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2060" y="700" />
+            </Array>
+            <mxPoint x="2060" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-29" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;FSlateInvalidationContext&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" connectable="0" parent="jtR3XcIFtFtsoOWhmZOy-28">
+          <mxGeometry x="-0.4809" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-30" value="SWindow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2240" y="610" width="100" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUVd7wUhywcXN_exj-I-14" value="&lt;div style=&quot;line-height: 16px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(239, 176, 128);&quot;&gt;SWindow&lt;/span&gt;&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;:&lt;/span&gt;&lt;span&gt;PaintSlowPath&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=default;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;" parent="jtR3XcIFtFtsoOWhmZOy-30" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-31" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;GetClippingRectangleInWindow&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(239, 176, 128);&quot;&gt;获取窗口的裁剪边界&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2490" y="730" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-32" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="jtR3XcIFtFtsoOWhmZOy-31" parent="1" source="jtR3XcIFtFtsoOWhmZOy-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-33" value="&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve;&quot;&gt;FSlateRect&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="jtR3XcIFtFtsoOWhmZOy-31" parent="1" target="jtR3XcIFtFtsoOWhmZOy-30">
+          <mxGeometry x="0.0019" relative="1" as="geometry">
+            <mxPoint x="2320" y="775" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-34" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #efb080;&quot;&gt;GetWindowGeometryInWindow&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;获取窗口的几何信息&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2490" y="810" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-35" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="jtR3XcIFtFtsoOWhmZOy-34" parent="1" source="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="815" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-36" value="&lt;span style=&quot;background-color: rgb(10, 10, 10); color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve;&quot;&gt;FGeometry&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="jtR3XcIFtFtsoOWhmZOy-34" parent="1" target="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry x="0.0019" relative="1" as="geometry">
+            <mxPoint x="2320" y="875" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-37" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); line-height: 60%;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 60%;&quot;&gt;FHittestGrid.Clear&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 60%;&quot;&gt;清空命中测试网络&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 60%;&quot;&gt;（用于鼠标点击）&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2672" y="700" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtR3XcIFtFtsoOWhmZOy-38" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="jtR3XcIFtFtsoOWhmZOy-37" parent="1" source="nAUVd7wUhywcXN_exj-I-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="705" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
