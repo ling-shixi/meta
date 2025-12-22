@@ -2501,7 +2501,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rUUfpbUo73QCnZ2gtMrn" name="TabManager">
-    <mxGraphModel dx="1861" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2564,6 +2564,9 @@
             <mxPoint x="-10" y="390" as="sourcePoint" />
             <mxPoint x="150" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="maxD7sVTY1emviTEXRIT-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FTabManager&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="190" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
