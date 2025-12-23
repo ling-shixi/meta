@@ -374,7 +374,7 @@
             <mxPoint x="340" y="3265" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nxjcua0KGaf6IYbzdq-W-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="Nxjcua0KGaf6IYbzdq-W-15" value="&lt;span style=&quot;&quot;&gt;PackagesToUnload中还任然isValid的元素&lt;/span&gt;">
+        <mxCell id="Nxjcua0KGaf6IYbzdq-W-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="Nxjcua0KGaf6IYbzdq-W-15" value="&lt;span style=&quot;&quot;&gt;PackagesToUnload中未被ReloadPackages触发的GC回收的元素&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="3432" as="sourcePoint" />
           </mxGeometry>
