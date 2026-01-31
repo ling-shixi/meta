@@ -929,7 +929,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sbGSP4_KvaO9lny202c" name="Slate渲染器工作时序图">
-    <mxGraphModel dx="789" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="642" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1622,21 +1622,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HTovBTv1MyLVO7k2SrJm-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;DrawWindows_Private&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="2280" width="10" x="872.5" y="3180" as="geometry" />
+          <mxGeometry height="2650" width="10" x="872.5" y="3180" as="geometry" />
         </mxCell>
         <mxCell id="hp40cu8EYT8IMNQznbTA-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=280;height=30;" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;WindowDrawBuffer.&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;GetWindowElementLists&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;()&lt;/span&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="1740" width="1967.5" x="962.5" y="5230" as="geometry" />
+          <mxGeometry height="1740" width="1967.5" x="964.5" y="5610" as="geometry" />
         </mxCell>
         <mxCell id="hp40cu8EYT8IMNQznbTA-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space-collapse: collapse; line-height: 100%;&quot;&gt;&lt;div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font&gt;ENQUEUE_RENDER_COMMAND宏&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;white-space-collapse: collapse; line-height: 100%;&quot;&gt;将&lt;/span&gt;DrawWindow_RenderThread加入渲染线程队列&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="10" x="1552.5" y="6626" as="geometry" />
+          <mxGeometry height="110" width="10" x="1554.5" y="7006" as="geometry" />
         </mxCell>
         <mxCell id="hp40cu8EYT8IMNQznbTA-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="hp40cu8EYT8IMNQznbTA-2" value="&lt;font&gt;&lt;span&gt;FSlateWindowElementList&lt;/span&gt;&lt;span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&lt;font&gt;&lt;span&gt;（&lt;/span&gt;&lt;font&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;WindowElementLists&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;ListIndex&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/font&gt;&lt;span&gt;）&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="882.5" y="6630.999999999999" as="sourcePoint" />
+            <mxPoint x="884.5" y="7010.999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JeHvVeEJT2-mVZbMWL5d-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;FRenderThreadCommandPipe&lt;/span&gt;" vertex="1">
-          <mxGeometry height="456" width="220" x="1732.5" y="6470" as="geometry" />
+          <mxGeometry height="456" width="220" x="1734.5" y="6850" as="geometry" />
         </mxCell>
         <mxCell id="JeHvVeEJT2-mVZbMWL5d-2" parent="JeHvVeEJT2-mVZbMWL5d-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;&quot;&gt;Enqueue&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="10" x="105" y="156" as="geometry" />
@@ -1648,14 +1648,14 @@
         </mxCell>
         <mxCell id="JeHvVeEJT2-mVZbMWL5d-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="JeHvVeEJT2-mVZbMWL5d-2" value="&lt;span style=&quot;&quot;&gt;DrawWindow_RenderThread&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1562.5" y="6631" as="sourcePoint" />
+            <mxPoint x="1564.5" y="7011" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JeHvVeEJT2-mVZbMWL5d-6" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;EnqueueAndLaunch&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;将任务添加至渲染队列&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="10" x="2042.5" y="6636" as="geometry" />
+          <mxGeometry height="80" width="10" x="2044.5" y="7016" as="geometry" />
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;FSlateElementBatcher&lt;/span&gt;" vertex="1">
-          <mxGeometry height="1120" width="230" x="1022.5" y="5280" as="geometry" />
+          <mxGeometry height="1120" width="230" x="1024.5" y="5660" as="geometry" />
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-2" parent="AH8g2hsX7AmIHEbCXI_D-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;AddElements&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="980" width="10" x="110" y="100" as="geometry" />
@@ -1670,114 +1670,114 @@
             <mxPoint x="120" y="179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AH8g2hsX7AmIHEbCXI_D-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="AH8g2hsX7AmIHEbCXI_D-2" value="&lt;span&gt;FSlateWindowElementList&lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;（&lt;/span&gt;&lt;font&gt;*WindowElementLists[ListIndex]&lt;/font&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;">
+        <mxCell id="AH8g2hsX7AmIHEbCXI_D-3" edge="1" parent="1" source="HTovBTv1MyLVO7k2SrJm-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="AH8g2hsX7AmIHEbCXI_D-2" value="&lt;span&gt;FSlateWindowElementList&lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;（&lt;/span&gt;&lt;font&gt;*WindowElementLists[ListIndex]&lt;/font&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="882.5" y="5385.000000000006" as="sourcePoint" />
+            <mxPoint x="884.5" y="5765.000000000006" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;AddElementsInternal&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;取出&lt;/span&gt;FSlateDrawElementMap中的元素&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;并整理绘制内容&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;接下来以FSlateBoxElement类型为例&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="800" width="10" x="1442.5" y="5540" as="geometry" />
+          <mxGeometry height="800" width="10" x="1444.5" y="5920" as="geometry" />
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-6" edge="1" parent="1" source="AH8g2hsX7AmIHEbCXI_D-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="AH8g2hsX7AmIHEbCXI_D-5" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;WindowElementList.&lt;/span&gt;&lt;span style=&quot;&quot;&gt;GetUncachedDrawElements&lt;/span&gt;&lt;span style=&quot;&quot;&gt;(),&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;ViewportSize&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1142.5" y="5389" as="sourcePoint" />
+            <mxPoint x="1144.5" y="5769" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;FSlateWindowElementList&lt;/span&gt;" vertex="1">
-          <mxGeometry height="200" width="226" x="1346.5" y="5280" as="geometry" />
+          <mxGeometry height="200" width="226" x="1348.5" y="5660" as="geometry" />
         </mxCell>
         <mxCell id="AH8g2hsX7AmIHEbCXI_D-8" parent="AH8g2hsX7AmIHEbCXI_D-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;GetPaintWindow&lt;/span&gt;&lt;span style=&quot;&quot;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;GetViewportSize&lt;/span&gt;&lt;span style=&quot;&quot;&gt;()&lt;br&gt;返回视口大小&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="10" x="108" y="104" as="geometry" />
         </mxCell>
         <mxCell id="EdXUVAIcARdmB1dGA8H0-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;AddBoxElements&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;计算出顶点和索引数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;并未涉及到每个像素的计算&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="675" width="10" x="1622.5" y="5565" as="geometry" />
+          <mxGeometry height="675" width="10" x="1624.5" y="5945" as="geometry" />
         </mxCell>
         <mxCell id="EdXUVAIcARdmB1dGA8H0-2" edge="1" parent="1" source="AH8g2hsX7AmIHEbCXI_D-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="EdXUVAIcARdmB1dGA8H0-1" value="&lt;span style=&quot;&quot;&gt;FSlateDrawElementArray&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FSlateBoxElement&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1592.5" y="5570" as="sourcePoint" />
+            <mxPoint x="1594.5" y="5950" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OOhcXfNq4g-wKUdoSwUW-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;GenerateIndexedVertexBatches&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;将用于相同类型的绘制元素分批处理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;生成索引顶点批次&lt;/span&gt;&lt;/div&gt;&lt;div&gt;调用IsBatchableWith()判断&lt;/div&gt;&lt;div&gt;是否可以合并到同一批次&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="655" width="10" x="1802.5" y="5565" as="geometry" />
+          <mxGeometry height="655" width="10" x="1804.5" y="5945" as="geometry" />
         </mxCell>
         <mxCell id="OOhcXfNq4g-wKUdoSwUW-2" edge="1" parent="1" source="EdXUVAIcARdmB1dGA8H0-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="OOhcXfNq4g-wKUdoSwUW-1" value="&lt;span style=&quot;&quot;&gt;FSlateDrawElementArray&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FSlateBoxElement&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;gt;&amp;amp;&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1922.5" y="5575" as="sourcePoint" />
+            <mxPoint x="1924.5" y="5955" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OOhcXfNq4g-wKUdoSwUW-4" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=30;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;FSlateDrawElementArray[i]&lt;/font&gt;" vertex="1">
-          <mxGeometry height="900" width="710" x="1950" y="5500" as="geometry" />
+          <mxGeometry height="900" width="710" x="1952" y="5880" as="geometry" />
         </mxCell>
         <mxCell id="F09KOhRMbpckgyMZtE5--1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span&gt;&lt;font face=&quot;Helvetica&quot;&gt;GenerateBoxElementBatchParams&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;获取统一渲染参数，包括&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;取出裁剪状态&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="10" x="2170.5" y="5582.5" as="geometry" />
+          <mxGeometry height="80" width="10" x="2172.5" y="5962.5" as="geometry" />
         </mxCell>
         <mxCell id="F09KOhRMbpckgyMZtE5--2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="F09KOhRMbpckgyMZtE5--1" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;FSlateDrawElementArray[i]&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;此处为FSlateBoxElements&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="5587.5" as="sourcePoint" />
+            <mxPoint x="1814.5" y="5967.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F09KOhRMbpckgyMZtE5--3" edge="1" parent="1" source="F09KOhRMbpckgyMZtE5--1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;FSlateRenderBatchParams&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;NewBatchParams&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" x="0.001" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1812.5" y="5657.5" as="targetPoint" />
+            <mxPoint x="1814.5" y="6037.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="根据判断接下来的FSlateRenderBatchParams&lt;div&gt;与上一个是否完全相同，找出连续相同的最后一个index&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="10" x="2170.5" y="5672.5" as="geometry" />
+          <mxGeometry height="80" width="10" x="2172.5" y="6052.5" as="geometry" />
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-2" edge="1" parent="1" source="OOhcXfNq4g-wKUdoSwUW-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="c4igA-4G991DNiMNK5Sv-1" value="dispatch">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="5680" as="sourcePoint" />
+            <mxPoint x="1814.5" y="6060" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-3" edge="1" parent="1" source="c4igA-4G991DNiMNK5Sv-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="BatchIndexEnd连续相同渲染参数的末尾序号">
           <mxGeometry relative="1" x="0.0015" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1812.5" y="5750" as="targetPoint" />
+            <mxPoint x="1814.5" y="6130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;font style=&quot;font-size: 13px; line-height: 30%;&quot; face=&quot;Helvetica&quot;&gt;CreateRenderBatch&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span&gt;&lt;font style=&quot;font-size: 13px; line-height: 30%;&quot; face=&quot;Helvetica&quot;&gt;创建渲染批次&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 30%;&quot;&gt;将生成的FSlateRenderBatch存到NewBatchParams&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 30%;&quot;&gt;或者FSlateElementBatch中&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="10" x="2170.5" y="5800" as="geometry" />
+          <mxGeometry height="140" width="10" x="2172.5" y="6180" as="geometry" />
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-5" edge="1" parent="1" source="OOhcXfNq4g-wKUdoSwUW-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="c4igA-4G991DNiMNK5Sv-4" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;FSlateRenderBatchParams&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;NewBatchParams&lt;/span&gt;&lt;/font&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="5775" as="sourcePoint" />
+            <mxPoint x="1814.5" y="6155" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c4igA-4G991DNiMNK5Sv-6" edge="1" parent="1" source="c4igA-4G991DNiMNK5Sv-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="OOhcXfNq4g-wKUdoSwUW-1" value="&lt;span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;FSlateRenderBatch&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13px; font-style: italic; white-space-collapse: preserve;&quot;&gt;RenderBatch&lt;/span&gt;">
           <mxGeometry relative="1" x="0.0004" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1812.5" y="5845" as="targetPoint" />
+            <mxPoint x="1814.5" y="6225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KMo8aLO9qmo5jc5NBegV-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;line-height: 20%;&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 20%;&quot;&gt;ReserveBoxElementBatch&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 20%;&quot;&gt;遍历批次范围&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px; line-height: 20%;&quot;&gt;对RenderBatch的顶点缓冲区和索引缓冲区分配空间&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="10" x="2170.5" y="5970" as="geometry" />
+          <mxGeometry height="80" width="10" x="2172.5" y="6350" as="geometry" />
         </mxCell>
         <mxCell id="KMo8aLO9qmo5jc5NBegV-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="KMo8aLO9qmo5jc5NBegV-1" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;FSlateRenderBatch&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-style: italic;&quot;&gt;RenderBatch&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;uint32&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;i&lt;/span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;uint32&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BatchIndexEnd&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry relative="1" x="0.0016" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1812.5" y="5975" as="sourcePoint" />
+            <mxPoint x="1814.5" y="6355" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KMo8aLO9qmo5jc5NBegV-3" edge="1" parent="1" source="KMo8aLO9qmo5jc5NBegV-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="6045" as="targetPoint" />
+            <mxPoint x="1814.5" y="6425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e4B0rtZCoQ7s9idfhnF2-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=125;height=30;" value="i到&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(18, 18, 18);&quot;&gt;BatchIndexEnd&lt;/span&gt;" vertex="1">
-          <mxGeometry height="170" width="315" x="1997.5" y="6060" as="geometry" />
+          <mxGeometry height="170" width="315" x="1999.5" y="6440" as="geometry" />
         </mxCell>
         <mxCell id="e4B0rtZCoQ7s9idfhnF2-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;pre style=&quot;&quot;&gt;AddBoxElementInternal&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;计算每个顶点的数据，并添加到FSlateDrawElementArray[i]中&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="80" width="10" x="2170.5" y="6100" as="geometry" />
+          <mxGeometry height="80" width="10" x="2172.5" y="6480" as="geometry" />
         </mxCell>
         <mxCell id="e4B0rtZCoQ7s9idfhnF2-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="e4B0rtZCoQ7s9idfhnF2-2" value="&lt;span style=&quot;font-size: 13px; font-style: italic; white-space-collapse: preserve;&quot;&gt;RenderBatch、&lt;/span&gt;&lt;span style=&quot;font-size: 13px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;FSlateDrawElementArray[i]&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="6105" as="sourcePoint" />
+            <mxPoint x="1814.5" y="6485" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e4B0rtZCoQ7s9idfhnF2-4" edge="1" parent="1" source="e4B0rtZCoQ7s9idfhnF2-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="return">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1812.5" y="6175" as="targetPoint" />
+            <mxPoint x="1814.5" y="6555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EcxiTJ8o_Tu6lM-9StOs-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="EcxiTJ8o_Tu6lM-9StOs-1" value="&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 15.8pt; background-color: rgb(38, 38, 38);&quot;&gt;DesiredSize计算完成的ui组件大小&lt;/span&gt;">
@@ -1882,13 +1882,13 @@
         </mxCell>
         <mxCell id="M5kfXpy17CKuhy6PNLz0-3" edge="1" parent="1" source="OOhcXfNq4g-wKUdoSwUW-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="EdXUVAIcARdmB1dGA8H0-1" value="&lt;span style=&quot;font-size: 13px; background-color: rgb(27, 29, 30);&quot;&gt;FSlateBoxElement&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1590" y="6195" as="targetPoint" />
+            <mxPoint x="1592" y="6575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M5kfXpy17CKuhy6PNLz0-4" edge="1" parent="1" source="EdXUVAIcARdmB1dGA8H0-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="AH8g2hsX7AmIHEbCXI_D-5" value="&lt;span style=&quot;font-size: 13px; background-color: rgb(27, 29, 30);&quot;&gt;FSlateBoxElement&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1900" y="6210" as="sourcePoint" />
-            <mxPoint x="1720" y="6210" as="targetPoint" />
+            <mxPoint x="1902" y="6590" as="sourcePoint" />
+            <mxPoint x="1722" y="6590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V25lPocCY8vacL4N22PC-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;FSlateWindowElementList&lt;/span&gt;" vertex="1">
@@ -2079,10 +2079,10 @@
           <mxGeometry height="80" width="10" x="1570" y="4140" as="geometry" />
         </mxCell>
         <mxCell id="wCWE1vhZ0pKt4mtDBWn0-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;FSlateRHIResourceManager&lt;/span&gt;" vertex="1">
-          <mxGeometry height="500" width="255" x="937.5" y="4190" as="geometry" />
+          <mxGeometry height="1170" width="255" x="937.5" y="4190" as="geometry" />
         </mxCell>
         <mxCell id="wCWE1vhZ0pKt4mtDBWn0-16" parent="wCWE1vhZ0pKt4mtDBWn0-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;color: light-dark(rgb(208, 208, 208), rgb(58, 58, 58)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt;&quot;&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;UpdateTextureAtlases&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt;&quot;&gt;&lt;font color=&quot;#007a50&quot;&gt;由slate加载线程处理&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="350" width="10" x="122.5" y="120" as="geometry" />
+          <mxGeometry height="1010" width="10" x="122.5" y="120" as="geometry" />
         </mxCell>
         <mxCell id="wCWE1vhZ0pKt4mtDBWn0-17" edge="1" parent="wCWE1vhZ0pKt4mtDBWn0-15" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="wCWE1vhZ0pKt4mtDBWn0-16" value="">
           <mxGeometry relative="1" as="geometry">
@@ -2113,8 +2113,57 @@
             <mxPoint x="122.5" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7fkoFdKrgyKN1Ke-uUiS-2" edge="1" parent="fgSRsPfyT5uFIEYP05ia-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="7fkoFdKrgyKN1Ke-uUiS-1" value="RenderThreadData">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122.5" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-9" edge="1" parent="fgSRsPfyT5uFIEYP05ia-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="XmPu6W9orCR2A4GbMexU-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122.5" y="725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3HjyoFphGtQExBFFZhSp-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space-collapse: preserve;&quot;&gt;FSlateTextureData&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space-collapse: preserve;&quot;&gt;根据图集信息创建相应的数据&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="10" x="1580" y="4430" as="geometry" />
+        </mxCell>
+        <mxCell id="7fkoFdKrgyKN1Ke-uUiS-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space-collapse: preserve;&quot;&gt;UpdateTexture_RenderThread&lt;/div&gt;&lt;div style=&quot;color: rgb(216, 222, 233); background-color: rgb(10, 10, 10); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space-collapse: preserve;&quot;&gt;更新纹理数据到GPU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="10" x="1580" y="4560" as="geometry" />
+        </mxCell>
+        <mxCell id="7fkoFdKrgyKN1Ke-uUiS-4" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" value="将命令填入渲染线程执行" vertex="1">
+          <mxGeometry height="480" width="760" x="1330" y="4510" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FSlateTexture2DRHIRef&lt;/span&gt;" vertex="1">
+          <mxGeometry height="420" width="215" x="1654" y="4520" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-2" parent="XmPu6W9orCR2A4GbMexU-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;InitResource&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;在没有初始化时进行&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="10" x="102.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-3" edge="1" parent="XmPu6W9orCR2A4GbMexU-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="XmPu6W9orCR2A4GbMexU-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-64" y="75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-5" parent="XmPu6W9orCR2A4GbMexU-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="更新纹理数据到GPU&lt;div&gt;通过&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;FMemory::Memcpy直接进行拷贝&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="10" x="102.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-6" edge="1" parent="XmPu6W9orCR2A4GbMexU-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="XmPu6W9orCR2A4GbMexU-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-64" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-8" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;EmptyAtlasData&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;在CPU清空上面用到的纹理数据&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="10" x="1450" y="5020" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;FSlateVectorGraphicsCache&lt;/span&gt;" vertex="1">
+          <mxGeometry height="240" width="290" x="920" y="5360" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-15" parent="XmPu6W9orCR2A4GbMexU-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;UpdateCache&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:14.3pt;&quot;&gt;更新缓存的纹理图集&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="10" x="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XmPu6W9orCR2A4GbMexU-16" edge="1" parent="XmPu6W9orCR2A4GbMexU-14" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="XmPu6W9orCR2A4GbMexU-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-37.5" y="95" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3079,8 +3128,8 @@
             <mxPoint x="3030" y="4430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pspD9IAZ9kZsgKY7rS0q-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateTextureAtlasRHI&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="140" width="370" x="2613" y="4860" as="geometry" />
+        <mxCell id="pspD9IAZ9kZsgKY7rS0q-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateTextureAtlasRHI&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38);&quot;&gt;AtlasTexture&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(193, 145, 255);&quot;&gt;FSlateTexture2DRHIRef&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 14.3pt; background-color: rgb(38, 38, 38); color: rgb(189, 189, 189);&quot;&gt;*&amp;nbsp; 纹理资源&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="507" x="2613" y="4860" as="geometry" />
         </mxCell>
         <mxCell id="pspD9IAZ9kZsgKY7rS0q-4" edge="1" parent="1" source="pspD9IAZ9kZsgKY7rS0q-1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="pspD9IAZ9kZsgKY7rS0q-3" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
