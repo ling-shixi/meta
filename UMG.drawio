@@ -2441,7 +2441,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhmXJrG1999fLDnoOwhv" name="Slate渲染UML">
-    <mxGraphModel dx="2688" dy="2944" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2516" dy="2843" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2979,7 +2979,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;FSlateRenderingPolicy&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;Slate渲染的策略基类，支持不同渲染后端&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;FontServices&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;TSharedRef&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;FSlateFontServices&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;nbsp; Slate文本缓存&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;PixelCenterOffset：&lt;/span&gt;&lt;span&gt;float&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;1、访问渲染资源的核心接口&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetFontCache()/GetFontServices()&amp;nbsp; 字体资源&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetResourceManager()访问纹理、材质等资源&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;2、平台特定配置&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetPixelCenterOffset()：&lt;span&gt;float&amp;nbsp; 平台特定的像素对齐偏移&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;IsVertexColorInLinearSpace():&lt;/span&gt;&lt;span&gt;bool&amp;nbsp; 顶点颜色是否在线性空间中（false就在sRGB空间中）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;3、与游戏场景相关的继承接口，用于支持3d内容在UI中的显示&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;AddSceneAt(&lt;/span&gt;&lt;span&gt;FSceneInterface&lt;/span&gt;&lt;span&gt;*,int32&lt;/span&gt;&lt;span&gt;):void&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;添加场景到指定索引&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;ClearScenes():void&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;清除所有场景&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="340" width="830" x="4225" y="6130" as="geometry" />
+          <mxGeometry height="340" width="830" x="5240" y="5400" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-2" edge="1" parent="1" source="-vSihZBSgBgTtzwONo0s-1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.006;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="ByA4K98i4B-RC6-8zbWK-1" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -2988,78 +2988,78 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;SlateRHIRenderingPolicy&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;支持UE的所有RHI系统，支持所有RHI后端&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;ResourceManager&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;TSharedRef&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;FSlateRHIResourceManager&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="140" width="570" x="5357.5" y="6290" as="geometry" />
+          <mxGeometry height="140" width="570" x="6372.5" y="5560" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-8" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-4" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=-0.004;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-1" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="5970" y="5930" as="sourcePoint" />
-            <mxPoint x="6130" y="5930" as="targetPoint" />
+            <mxPoint x="6985" y="5200" as="sourcePoint" />
+            <mxPoint x="7145" y="5200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;FSlateD3D11RenderingPolicy&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;Direct11专用策略&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span&gt;TextureManager&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;TSharedRef&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;FSlateD3DTextureManager&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="180" width="555" x="5310" y="6550" as="geometry" />
+          <mxGeometry height="180" width="555" x="6325" y="5820" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;FSlateOpenGLRenderingPolicy&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;white-space: pre; text-align: left;&quot;&gt;OpenGL专用策略&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span&gt;TextureManager&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;TSharedRef&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;FSlateOpenGLTextureManager&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="140" width="620" x="5337.5" y="6820" as="geometry" />
+          <mxGeometry height="140" width="620" x="6352.5" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-11" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-1" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6291" y="5780" as="sourcePoint" />
-            <mxPoint x="5770" y="6064" as="targetPoint" />
+            <mxPoint x="7306" y="5050" as="sourcePoint" />
+            <mxPoint x="6785" y="5334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-12" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-10" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-1" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6371" y="6040" as="sourcePoint" />
-            <mxPoint x="5850" y="6324" as="targetPoint" />
+            <mxPoint x="7386" y="5310" as="sourcePoint" />
+            <mxPoint x="6865" y="5594" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;FSlateOpenGLTextureManager&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="95" width="320" x="6167.5" y="6842.5" as="geometry" />
+          <mxGeometry height="95" width="320" x="7182.5" y="6112.5" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-14" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-13" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="5897.5" y="6820" as="sourcePoint" />
-            <mxPoint x="6057.5" y="6820" as="targetPoint" />
+            <mxPoint x="6912.5" y="6090" as="sourcePoint" />
+            <mxPoint x="7072.5" y="6090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span&gt;FSlateD3DTextureManager&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="95" width="320" x="6177.5" y="6592.5" as="geometry" />
+          <mxGeometry height="95" width="320" x="7192.5" y="5862.5" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-16" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-15" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6047.5" y="6890" as="sourcePoint" />
-            <mxPoint x="6257.5" y="6892" as="targetPoint" />
+            <mxPoint x="7062.5" y="6160" as="sourcePoint" />
+            <mxPoint x="7272.5" y="6162" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-17" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;FSlateRHIResourceManager&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="95" width="320" x="6187.5" y="6300" as="geometry" />
+          <mxGeometry height="95" width="320" x="7202.5" y="5570" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-18" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-17" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6007.5" y="6640" as="sourcePoint" />
-            <mxPoint x="6319.5" y="6645" as="targetPoint" />
+            <mxPoint x="7022.5" y="5910" as="sourcePoint" />
+            <mxPoint x="7334.5" y="5915" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-19" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FSlateShaderResourceManager&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="95" width="320" x="6797.5" y="6570" as="geometry" />
+          <mxGeometry height="95" width="320" x="7812.5" y="5840" as="geometry" />
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-20" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-17" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.872;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-19" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6417.5" y="6570" as="sourcePoint" />
-            <mxPoint x="6577.5" y="6570" as="targetPoint" />
+            <mxPoint x="7432.5" y="5840" as="sourcePoint" />
+            <mxPoint x="7592.5" y="5840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-22" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-13" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1.009;exitY=0.432;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-19" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6657.5" y="6530" as="sourcePoint" />
-            <mxPoint x="6972.5" y="6754" as="targetPoint" />
+            <mxPoint x="7672.5" y="5800" as="sourcePoint" />
+            <mxPoint x="7987.5" y="6024" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByA4K98i4B-RC6-8zbWK-23" edge="1" parent="1" source="ByA4K98i4B-RC6-8zbWK-15" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="ByA4K98i4B-RC6-8zbWK-19" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="6657.5" y="6530" as="sourcePoint" />
-            <mxPoint x="6972.5" y="6754" as="targetPoint" />
+            <mxPoint x="7672.5" y="5800" as="sourcePoint" />
+            <mxPoint x="7987.5" y="6024" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ga26270m2sRH-KEMTG8c-1" edge="1" parent="1" source="65EqZQnjHKEZfLjwadUy-1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;fontSize=13;" target="btc18uEjgXyHn8RV7B0h-1" value="Use">
@@ -3294,6 +3294,18 @@
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="4730" y="3580" as="sourcePoint" />
             <mxPoint x="4890" y="3580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nyoHhKckf0D4TOF5R6t-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FSlateBackBuffer&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="115" width="300" x="4310" y="5865" as="geometry" />
+        </mxCell>
+        <mxCell id="9nyoHhKckf0D4TOF5R6t-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;FRenderTarget&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38); text-align: left;&quot;&gt;存储渲染目标信息&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 195, 204); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38);&quot;&gt;RenderTargetTextureRHI&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12.8pt; background-color: rgb(38, 38, 38);&quot;&gt;FTextureRHIRef&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="175" width="560" x="4800" y="5845" as="geometry" />
+        </mxCell>
+        <mxCell id="9nyoHhKckf0D4TOF5R6t-3" edge="1" parent="1" source="9nyoHhKckf0D4TOF5R6t-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="9nyoHhKckf0D4TOF5R6t-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="4620" y="5900" as="sourcePoint" />
+            <mxPoint x="4780" y="5900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
