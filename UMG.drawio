@@ -2449,7 +2449,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhmXJrG1999fLDnoOwhv" name="Slate渲染UML">
-    <mxGraphModel dx="2420" dy="2787" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2003" dy="3067" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2872,7 +2872,7 @@
         <mxCell id="xcgEmPFxoxcwgCeOkp23-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHICommandListExecutor&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span&gt;CommandListImmediate&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;FRHICommandListImmediate&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="129" width="500" x="1250" y="6531" as="geometry" />
         </mxCell>
-        <mxCell id="xcgEmPFxoxcwgCeOkp23-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHICommandListImmediate&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+        <mxCell id="xcgEmPFxoxcwgCeOkp23-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHICommandListImmediate&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;封装命令，用于提交draw call、设置状态、开启、结束render pass等&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
           <mxGeometry height="109.5" width="410" x="2030" y="6450" as="geometry" />
         </mxCell>
         <mxCell id="xcgEmPFxoxcwgCeOkp23-5" edge="1" parent="1" source="xcgEmPFxoxcwgCeOkp23-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="xcgEmPFxoxcwgCeOkp23-4" value="Use">
