@@ -2449,7 +2449,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhmXJrG1999fLDnoOwhv" name="Slate渲染UML">
-    <mxGraphModel dx="3131" dy="3204" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2870" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3342,6 +3342,9 @@
             <mxPoint x="5380" y="6120" as="sourcePoint" />
             <mxPoint x="5540" y="6120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MichIGWkh7lPrepGX8jX-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="frame" vertex="1">
+          <mxGeometry height="1330" width="4000" x="8150" y="4450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
