@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.4.0" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.8" pages="14">
   <diagram name="SWidget及其主要子类" id="HSy3ttUSezWagzPz5H4Y">
     <mxGraphModel dx="1845" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2485,7 +2485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhmXJrG1999fLDnoOwhv" name="Slate渲染UML">
-    <mxGraphModel dx="2271" dy="2853" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2639" dy="2915" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3317,42 +3317,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FSlateBackBuffer&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;&quot;&gt;SizeXY&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FIntPoint（x和y）&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="115" width="300" x="3487" y="6065" as="geometry" />
+          <mxGeometry height="115" width="300" x="2680" y="5960" as="geometry" />
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRenderTarget&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;存储渲染目标信息&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;&quot;&gt;RenderTargetTextureRHI&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FTextureRHIRef=&lt;/span&gt;&lt;span style=&quot;&quot;&gt;TRefCountPtr&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FRHITexture&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="185" width="630" x="3920" y="6045" as="geometry" />
+          <mxGeometry height="185" width="630" x="3113" y="5940" as="geometry" />
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-3" edge="1" parent="1" source="9nyoHhKckf0D4TOF5R6t-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="9nyoHhKckf0D4TOF5R6t-2" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="3797" y="6100" as="sourcePoint" />
-            <mxPoint x="3957" y="6100" as="targetPoint" />
+            <mxPoint x="2990" y="5995" as="sourcePoint" />
+            <mxPoint x="3150" y="5995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHITexture&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;&quot;&gt;TextureDesc&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FRHITextureDesc&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;&quot;&gt;LastRenderTime：&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FLastRenderTimeContainer&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="137.5" width="393" x="4690" y="6065" as="geometry" />
+          <mxGeometry height="137.5" width="393" x="3883" y="5960" as="geometry" />
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-5" edge="1" parent="1" source="9nyoHhKckf0D4TOF5R6t-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="9nyoHhKckf0D4TOF5R6t-4" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="4677" y="6100" as="sourcePoint" />
-            <mxPoint x="4837" y="6100" as="targetPoint" />
+            <mxPoint x="3870" y="5995" as="sourcePoint" />
+            <mxPoint x="4030" y="5995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHIViewableResource&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="260" x="5193" y="6072.5" as="geometry" />
+          <mxGeometry height="100" width="260" x="4386" y="5967.5" as="geometry" />
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-7" edge="1" parent="1" source="9nyoHhKckf0D4TOF5R6t-4" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="9nyoHhKckf0D4TOF5R6t-6" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="5230" y="6120" as="sourcePoint" />
-            <mxPoint x="5190" y="6120" as="targetPoint" />
+            <mxPoint x="4423" y="6015" as="sourcePoint" />
+            <mxPoint x="4383" y="6015" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;FRHIResource&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;&quot;&gt;AtomicFlags&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;FAtomicFlags&amp;nbsp; 保障原子操作&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;&quot;&gt;ResourceType：&lt;/span&gt;&lt;span style=&quot;&quot;&gt;ERHIResourceType&amp;nbsp; 不同渲染接口的引用类型&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="177.5" width="520" x="5580" y="6072.5" as="geometry" />
+          <mxGeometry height="177.5" width="520" x="4903" y="5890" as="geometry" />
         </mxCell>
         <mxCell id="9nyoHhKckf0D4TOF5R6t-9" edge="1" parent="1" source="9nyoHhKckf0D4TOF5R6t-6" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" target="9nyoHhKckf0D4TOF5R6t-8" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="5380" y="6120" as="sourcePoint" />
-            <mxPoint x="5540" y="6120" as="targetPoint" />
+            <mxPoint x="4573" y="6015" as="sourcePoint" />
+            <mxPoint x="4733" y="6015" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MichIGWkh7lPrepGX8jX-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=none;" value="frame" vertex="1">
